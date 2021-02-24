@@ -1,0 +1,19 @@
+number	strain name	Project accession nr.	Sample accession nr.	database	reference	origin	year	mating type	deposited by	notes	
+1	CC-2290	PRJNA271103	SRX823806	NCBI Sequence Read Archive	Flowers et al. 2015	"Minnesota, USA"	1988	-	Lefebvre	similar to CC-1952
+2	CC-2342	PRJNA271103	SRX823805	NCBI Sequence Read Archive	"Flowers et al. 2015, Craig et al. 2019"	"Pittsburgh, PA, USA"	1988	-	Jarvik
+3	CC-2343	PRJNA271103	SRX823807	NCBI Sequence Read Archive	"Flowers et al. 2015, Craig et al. 2019"	"Melbourne, FL, USA"	1988	+	Jarvik
+4	CC-2344	PRJNA271103	SRX823856	NCBI Sequence Read Archive	"Flowers et al. 2015, Craig et al. 2019"	"Ralston, PA, USA"	1988	+	Jarvik
+5	CC-2931	PRJNA271103	SRX823857	NCBI Sequence Read Archive	"Flowers et al. 2015, Craig et al. 2019"	"Durham, NC, USA"	1991	-	Harris
+6	CC-2932	PRJNA169374	SAMN01057840	"NCBI Short Read Archive, Project Nr. PRJNA169374"	"Jang & Ehrenreich 2012, Craig et al. 2019"	"Durham, NC, USA"	1991	+	Harris
+7	CC-2935	PRJNA271103	SRX823809	NCBI Sequence Read Archive	"Flowers etal. 2015, Craig et al. 2019"	"Farnham, QC, Canada"	1993	-	Bell
+8	CC-2936	PRJNA271103	SRX823810	NCBI Sequence Read Archive	"Flowers etal. 2015, Craig et al. 2019"	"Farnham, QC, Canada"	1993	+	Bell
+9	CC-2937	PRJNA271103	SRX823858	NCBI Sequence Read Archive	"Flowers etal. 2015, Craig et al. 2019"	"Farnham, QC, Canada"	1993	+	Bell
+10	CC-2938	PRJNA271103	SRX823808	NCBI Sequence Read Archive	"Flowers etal. 2015, Craig et al. 2019"	"Farnham, QC, Canada"	1993	-	Bell
+11	CC-3059	PRJEB27323	SAMEA4731370	European Nucleotide Archive (ENA)	"Ness et al. 2016, Craig et al. 2019"	"Farnham, QC, Canada"	1993	-	Bell
+12	CC-3063	PRJEB27323	SAMEA4731374	European Nucleotide Archive (ENA)	"Ness et al. 2016, Craig et al. 2019"	"Farnham, QC, Canada"	1993	-	Bell
+13	CC-3065	PRJEB27323	SAMEA4731376	European Nucleotide Archive (ENA)	"Ness et al. 2016, Craig et al. 2019"	"Farnham, QC, Canada"	1993	+	Bell
+14	CC-3071	PRJEB27323	SAMEA4731378	European Nucleotide Archive (ENA)	"Ness et al. 2016, Craig et al. 2019"	"Farnham, QC, Canada"	1993	+	Bell
+15	CC-3076	PRJEB27323	SAMEA4731381	European Nucleotide Archive (ENA)	"Ness et al. 2016, Craig et al. 2019"	"MacDonald College, QC, Canada"	1994	+	Bell
+16	CC-3079	PRJEB27323	SAMEA4731382	European Nucleotide Archive (ENA)	"Ness et al. 2016, Craig et al. 2019"	"MacDonald College, QC, Canada"	1994	-	Bell
+17	CC-3084	PRJEB27323	SAMEA4731383	European Nucleotide Archive (ENA)	"Ness et al. 2016, Craig et al. 2019"	"MacDonald College, QC, Canada"	1994	-	Bell
+18	CC-3086	PRJEB27323	SAMEA4731384	European Nucleotide Archive (ENA)	"Ness et al. 2016, Craig et al. 2019"	"MacDonald College, QC, Canada"	1994	+	Bell

@@ -1,0 +1,11 @@
+/home/local/packages/anaconda3/lib/python3.7/site-packages/multiqc-1.7-py3.7.egg/EGG-INFO/scripts/multiqc:229: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn('MultiQC Version {} now available!'.format(remote_version))
+[WARNING]         multiqc : MultiQC Version v1.9 now available!
+[INFO   ]         multiqc : This is MultiQC v1.7
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '.'
+[INFO   ]          fastqc : Found 34 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : MultiQC_Report_temp/multiqc_report.html
+[INFO   ]         multiqc : Data        : MultiQC_Report_temp/multiqc_data
+[INFO   ]         multiqc : MultiQC complete

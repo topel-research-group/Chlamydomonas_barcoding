@@ -1,0 +1,38 @@
+#$ -cwd
+#$ -q Annotation-1
+#$ -pe mpi 20
+#$ -S /bin/bash
+
+set -e
+set -u
+set -o pipefail
+
+module load filterPCRdupl/vX.X
+module load Anaconda3/v2019.10
+module load FastQC/v0.11.8
+
+SAMPLE=${PWD##*/}
+FILEPATH=../../raw/${SAMPLE}
+INFILE1=$(ls ${FILEPATH}/*_1.fastq.gz)
+INFILE2=$(ls ${FILEPATH}/*_2.fastq.gz)
+
+## Unsure whether pipeline accepts zipped files!
+
+filterPCRdupl.pl -fastq1=$INFILE1 -fastq2=$INFILE2 -prefix=${SAMPLE}_filterPCRdupl
+
+gzip *.fastq
+
+LENGTH=90
+if [[ $INFILE1 == "SRX"* ]]; then
+	LENGTH=45
+fi
+
+cutadapt -j $NSLOTS \
+-q 30 \
+-m $LENGTH \
+-o ${SAMPLE}_filtered.trimmed_1.fastq.gz \
+-p ${SAMPLE}_filtered.trimmed_2.fastq.gz \
+${SAMPLE}_filterPCRdupl_uniq1.fastq.gz \
+${SAMPLE}_filterPCRdupl_uniq2.fastq.gz
+
+fastqc -t $NSLOTS *trimmed*fastq.gz

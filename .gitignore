@@ -1,0 +1,10 @@
+00_data/*/CC*/*fastq.gz
+00_data/*/CC*/*fastqc.zip
+00_data/*/CC*/*sge*
+00_data/*/MultiQC*/multiqc_data
+00_data/raw/SRA_files/
+01_mapping/Reference/*/*.fa.gz
+01_mapping/Reference/*/*.fna
+01_mapping/Reference/genome_v5.5/CHECKSUMS
+01_mapping/Reference/genome_v5.5/CHECKSUMS_2
+01_mapping/Reference/genome_v5.5/README

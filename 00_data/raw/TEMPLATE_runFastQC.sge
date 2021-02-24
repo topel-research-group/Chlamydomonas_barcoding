@@ -1,0 +1,8 @@
+#$ -cwd
+#$ -q high_mem
+#$ -pe mpi 4
+#$ -S /bin/bash
+
+module load FastQC/v0.11.8
+
+fastqc -t $NSLOTS *.fastq.gz

@@ -1,0 +1,10 @@
+#$ -cwd
+#$ -q Annotation-1
+#$ -pe mpi 1
+#$ -S /bin/bash
+
+module load Anaconda3/v2018.12
+
+multiqc -o MultiQC_Report_SRA_temp CC-*/SRX*
+
+multiqc -o MultiQC_Report_ENA CC-*/ERR*

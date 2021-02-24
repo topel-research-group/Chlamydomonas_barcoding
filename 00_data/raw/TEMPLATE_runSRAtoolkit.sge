@@ -1,0 +1,6 @@
+#$ -cwd
+#$ -q high_mem
+#$ -pe mpi 4
+#$ -S /bin/bash
+
+~/bin/sratoolkit.2.9.6-1-centos_linux64/bin/fastq-dump --gzip --split-files ../SRA_files/
