@@ -1,0 +1,24 @@
+#$ -cwd
+#$ -pe mpi 40
+#$ -q Annotation-4
+#$ -S /bin/bash
+
+module load Anaconda3/v2019.10
+module load samtools/v1.10
+module load bcftools/v1.10.2
+module load Bedtools2/v2.27.1
+
+# Note that sample CC-2932 is still missing
+
+bamboozle.py barcode --primer_size 21 --window_size 500 \
+-f ../../01b_mapping_contigs/Reference/C_reinhardtii_v5.5_reference.contigs.fasta \
+-b ../../02b_variantcalling_contigs/CC-2290/CC-2290_sorted.bam \
+../../02b_variantcalling_contigs/CC-2342/CC-2342_sorted.bam \
+../../02b_variantcalling_contigs/CC-2931/CC-2931_sorted.bam \
+../../02b_variantcalling_contigs/CC-2935/CC-2935_sorted.bam \
+../../02b_variantcalling_contigs/CC-2938/CC-2938_sorted.bam \
+../../02b_variantcalling_contigs/CC-3059/CC-3059_sorted.bam \
+../../02b_variantcalling_contigs/CC-3063/CC-3063_sorted.bam \
+../../02b_variantcalling_contigs/CC-3079/CC-3079_sorted.bam \
+../../02b_variantcalling_contigs/CC-3084/CC-3084_sorted.bam \
+--ploidy haploid -o Chlamy_p21_w500_ContigLevel_mt_minus -t $NSLOTS -v --dev

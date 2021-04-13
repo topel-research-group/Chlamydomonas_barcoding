@@ -1,0 +1,32 @@
+#$ -cwd
+#$ -pe mpi 40
+#$ -q Annotation-4
+#$ -S /bin/bash
+
+module load Anaconda3/v2019.10
+module load samtools/v1.10
+module load bcftools/v1.10.2
+module load Bedtools2/v2.27.1
+
+# Note that sample CC-2932 is still missing
+
+bamboozle.py barcode --primer_size 21 --window_size 500 \
+-f ../../01_mapping/Reference/C_reinhardtii_v5.5_reference.unmasked.fasta \
+-b ../../02_variantcalling/CC-2290/CC-2290_sorted.bam \
+../../02_variantcalling/CC-2342/CC-2342_sorted.bam \
+../../02_variantcalling/CC-2343/CC-2343_sorted.bam \
+../../02_variantcalling/CC-2344/CC-2344_sorted.bam \
+../../02_variantcalling/CC-2931/CC-2931_sorted.bam \
+../../02_variantcalling/CC-2935/CC-2935_sorted.bam \
+../../02_variantcalling/CC-2936/CC-2936_sorted.bam \
+../../02_variantcalling/CC-2937/CC-2937_sorted.bam \
+../../02_variantcalling/CC-2938/CC-2938_sorted.bam \
+../../02_variantcalling/CC-3059/CC-3059_sorted.bam \
+../../02_variantcalling/CC-3063/CC-3063_sorted.bam \
+../../02_variantcalling/CC-3065/CC-3065_sorted.bam \
+../../02_variantcalling/CC-3071/CC-3071_sorted.bam \
+../../02_variantcalling/CC-3076/CC-3076_sorted.bam \
+../../02_variantcalling/CC-3079/CC-3079_sorted.bam \
+../../02_variantcalling/CC-3084/CC-3084_sorted.bam \
+../../02_variantcalling/CC-3086/CC-3086_sorted.bam \
+--ploidy haploid -o Chlamy_p21_w500_v2 -t $NSLOTS -v --dev

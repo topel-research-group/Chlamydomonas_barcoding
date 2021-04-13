@@ -1,0 +1,11 @@
+Get contig lengths: 0.0 seconds.
+Get median contig coverage stats: 315.0 seconds.
+Get irregular coverage stats: 473.3 seconds.
+Get lists of variants: 85.3 seconds.
+Find valid windows: 364924.4 seconds.
+Get good-coverage windows: 379307.9 seconds.
+Merge windows: 0.5 seconds.
+Get unique windows: 204.3 seconds.
+Write output: 0.0 seconds.
+
+Total time: 745310.6 seconds.

@@ -1,0 +1,54 @@
+#$ -cwd
+#$ -pe mpi 2
+#$ -q high_mem
+#$ -S /bin/bash
+
+set -e
+set -u
+set -o pipefail
+
+module load GATK/v4.1.8.0
+module load samtools/v1.10
+module load bcftools/v1.10.2
+
+SAMPLE=${PWD##*/}
+REF=../../01b_mapping_contigs/Reference/C_reinhardtii_v5.5_reference.contigs.fasta
+INFILE1=${SAMPLE}_sorted.bam
+INFILE2=${SAMPLE}.ReadGroups
+INFILE3=${SAMPLE}.g.vcf.gz
+OUTFILE1=${SAMPLE}.vcf.gz
+OUTFILE2=${SAMPLE}.filtered.vcf.gz
+OUTFILE3=${SAMPLE}_sorted.vcf.gz
+
+ln -s ../../01b_mapping_contigs/${SAMPLE}/${INFILE1}
+ln -s ../../01b_mapping_contigs/${SAMPLE}/${SAMPLE}_sorted.bai
+
+gatk --java-options "-Xmx2g" AddOrReplaceReadGroups \
+       -I $INFILE1 \
+       -O ${INFILE2}.bam \
+       -LB foo \
+       -PL ILLUMINA \
+       -PU bar \
+       -SM ${SAMPLE}
+
+samtools index ${INFILE2}.bam ${INFILE2}.bai
+
+gatk --java-options "-Xmx2g" HaplotypeCaller \
+        -R $REF \
+        -I ${INFILE2}.bam \
+        -O $INFILE3 \
+        -ERC GVCF \
+        -bamout ${SAMPLE}.realigned.bam
+
+samtools index ${SAMPLE}.realigned.bam ${SAMPLE}.realigned.bai
+
+gatk --java-options "-Xmx2g" GenotypeGVCFs \
+        -R $REF \
+        -V $INFILE3 \
+        -O $OUTFILE1
+
+bcftools filter --threads $NSLOTS -i "%QUAL>20" -Oz -o $OUTFILE2 $OUTFILE1
+
+ln -s $OUTFILE2 $OUTFILE3
+
+bcftools index --threads $NSLOTS $OUTFILE3

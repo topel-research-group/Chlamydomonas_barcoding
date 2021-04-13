@@ -23,7 +23,7 @@ filterPCRdupl.pl -fastq1=$INFILE1 -fastq2=$INFILE2 -prefix=${SAMPLE}_filterPCRdu
 gzip *.fastq
 
 LENGTH=90
-if [[ $INFILE1 == "SRX"* ]]; then
+if [[ $INFILE1 == *"SRX"* ]]; then
 	LENGTH=45
 fi
 

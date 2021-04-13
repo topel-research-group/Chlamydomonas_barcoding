@@ -1,0 +1,17 @@
+#$ -cwd
+#$ -q high_mem
+#$ -pe mpich 1
+#$ -S /bin/bash
+
+module load filterPCRdupl/vX.XX
+
+FILE1=P7161_101_S1_L001_R1_001.fastq
+FILE2=P7161_101_S1_L001_R2_001.fastq
+
+gunzip P7161_101_S1_L001_R1_001.fastq.gz
+gunzip P7161_101_S1_L001_R2_001.fastq.gz
+
+filterPCRdupl.pl -fastq1=$FILE1 -fastq2=$FILE2 -prefix=filterPCRdupl
+
+gzip P7161_101_S1_L001_R1_001.fastq
+gzip P7161_101_S1_L001_R2_001.fastq

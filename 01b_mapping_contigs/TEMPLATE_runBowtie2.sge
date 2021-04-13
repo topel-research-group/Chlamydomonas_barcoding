@@ -1,0 +1,26 @@
+#$ -cwd
+#$ -q sandbox@compute-0-9
+#$ -pe mpi 16
+#$ -S /bin/bash
+
+set -e
+set -u
+set -o pipefail
+
+module load Bowtie2/v2.3.4.3
+module load samtools/v1.10
+
+NAME=${PWD##*/}
+REF=../Reference/C_reinhardtii_v5.5_reference.contigs.fasta
+
+MATE1=$(ls ../../00_data/trimmed/${NAME}/${NAME}_filtered.trimmed_1.fastq.gz)
+MATE2=$(ls ../../00_data/trimmed/${NAME}/${NAME}_filtered.trimmed_2.fastq.gz)
+
+bowtie2 -p $NSLOTS --no-unal -x ${REF} -1 ${MATE1} -2 ${MATE2} -S ${NAME}.sam
+
+samtools view -@ $NSLOTS -b -o ${NAME}.bam ${NAME}.sam
+rm ${NAME}.sam
+samtools sort -@ $NSLOTS -o ${NAME}_sorted.bam ${NAME}.bam
+rm ${NAME}.bam
+samtools index ${NAME}_sorted.bam ${NAME}_sorted.bai
+
