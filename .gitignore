@@ -30,6 +30,9 @@
 03b_barcoding_contigs/OLD*
 03b_barcoding_contigs/Chlamy_p21_w500_ContigLevel*
 03b_barcoding_contigs/runBamboozleBarcoding.p21_w500.sge.*
-03b_barcoding_contigs/mating_type_locus_BLAST/runBLASTn.sge.*
+03b_barcoding_contigs/w300/*/runBamboozleBarcoding.p21_w300.*.sge.*
+03b_barcoding_contigs/w300/TEMPLATE_runBamboozleBarcoding.p21_w300.sge
+03b_barcoding_contigs/w300/all_strains
+03b_barcoding_contigs/mating_type_locus_BLAST/runBLASTn.*sge.*
 03b_barcoding_contigs/mt_*_only/runBamboozleBarcoding.p21_w500.mt*.sge.*
 MeetingNotes.md
