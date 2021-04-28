@@ -1,8 +1,22 @@
 # Checking barcoding at the contig level, rather than the scaffold level
 
+## All-samples barcodes
+
 No barcodes found when looking at *all* samples
 
 ## Mating type-specific barcodes
+
+**Navigation links**
+
+|      Analysis    |                                              Results file                                              |                                              Alleles directory                                              |
+|------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| mt+ 500bp window | [Chlamy_p21_w500_ContigLevel_mt_plus.txt](mt_plus_only/[Chlamy_p21_w500_ContigLevel_mt_plus.txt)       | [Chlamy_p21_w500_ContigLevel_mt_plus_alleles](mt_plus_only/Chlamy_p21_w500_ContigLevel_mt_plus_alleles/)    |
+| mt- 500bp window | [Chlamy_p21_w500_ContigLevel_mt_minus.txt](mt_minus_only/Chlamy_p21_w500_ContigLevel_mt_minus.txt)     | [Chlamy_p21_w500_ContigLevel_mt_minus_alleles](mt_minus_only/Chlamy_p21_w500_ContigLevel_mt_minus_alleles/) |
+| mt+ 300bp window | [Chlamy_p21_w300_ContigLevel_mt_plus.txt](w300/mt_plus_only/Chlamy_p21_w300_ContigLevel_mt_plus.txt)   | [Chlamy_p21_w300_ContigLevel_mt_plus_alleles](w300/mt_plus_only/Chlamy_p21_w300_ContigLevel_mt_plus_alleles/)|
+| mt- 300bp window | [Chlamy_p21_w300_ContigLevel_mt_minus.txt](w300/mt_minus_only/Chlamy_p21_w300_ContigLevel_mt_minus.txt)| [Chlamy_p21_w300_ContigLevel_mt_minus_alleles](w300/mt_minus_only/Chlamy_p21_w300_ContigLevel_mt_minus_alleles/)|
+| mt+ 150bp window (WIP) | [Chlamy_p21_w150_ContigLevel_mt_plus.txt](w150/mt_plus_only/Chlamy_p21_w150_ContigLevel_mt_plus.txt)   | [Chlamy_p21_w150_ContigLevel_mt_plus_alleles](w150/mt_plus_only/Chlamy_p21_w150_ContigLevel_mt_plus_alleles/)|
+| mt- 150bp window (WIP) | [Chlamy_p21_w150_ContigLevel_mt_minus.txt](w150/mt_minus_only/Chlamy_p21_w150_ContigLevel_mt_minus.txt)| [Chlamy_p21_w150_ContigLevel_mt_minus_alleles](w150/mt_minus_only/Chlamy_p21_w150_ContigLevel_mt_minus_alleles/)|
+
 
 ### 500bp window
 
@@ -50,7 +64,6 @@ All proteins on NCBI's annotation appear to be labelled as hypothetical, at leas
 | ABCN02001352.1:135258-135558 | Chromosome 17:1192804-1193104 | CHLRE_17g704850v5 (adenine phosphoribosyltransferase) | Looks okay; CC-3065 identical to reference at this locus!                                                     |
 | ABCN02001352.1:135282-135635 | Chromosome 17:1192828-1193181 | CHLRE_17g704850v5 (adenine phosphoribosyltransferase) | Looks okay; CC-3065 identical to reference at this locus!                                                     |
 
-
 #### [Mating type -](w300/mt_minus_only)
 
 |         Contig locus         |  Equivalent chromosome locus  |                    Coding region?                    |                                                    Notes                                                      |
@@ -62,3 +75,13 @@ All proteins on NCBI's annotation appear to be labelled as hypothetical, at leas
 | ABCN02001069.1:76226-76544   | Chromosome 13:4163058-4163376 | CHLRE_13g592050v5 (allantoinase)                     | Looks okay                                                                                                    |
 | ABCN02001285.1:148549-148861 | Chromosome 16:2930253-2930565 | CHLRE_16g664050v5 (GRAM domain? DUF4782?)            | CC-3059 doesn't look right, almost like a hetero deletion! Also, imperfect match from contig to scaffold...   |
 | ABCN02001352.1:142906-143216 | Chromosome 17:1200452-1200762 | CHLRE_17g704950v5 (unknown function)                 | Looks okay                                                                                                    |
+
+### 150bp window
+
+#### [Mating type +](w150/mt_plus_only)
+
+WORK IN PROGRESS
+
+#### [Mating type -](w150/mt_minus_only)
+
+WORK IN PROGRESS
