@@ -8,11 +8,11 @@ No barcodes found when looking at *all* samples
 
 Note - some samples appear identical in IGV when viewed at chromosome level; investigate at contig level
 
-All proteins on NCBI's annocation appear to be labelled as hypothetical, at least on chromosome 1...
+All proteins on NCBI's annotation appear to be labelled as hypothetical, at least on chromosome 1...
 * Where are the functional annotations?
 * [JBrowse on JGI's website](https://phytozome.jgi.doe.gov/jbrowse/index.html?data=genomes%2FCreinhardtii)
 
-#### Mating type +
+#### [Mating type +](mt_plus_only)
 
 |         Contig locus         |  Equivalent chromosome locus  |                    Coding region?                    |                                                    Notes                                                     |
 |------------------------------|-------------------------------|------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -21,7 +21,7 @@ All proteins on NCBI's annocation appear to be labelled as hypothetical, at leas
 | ABCN02000839.1:58898-59425   | Chromosome 11:58898-59425     | CHLRE_11g467528v5 (calcium channel)                  | CC-2936 and CC-3065 look identical in IGV...; CC-3076 differs from reference by one SNP                      |
 | ABCN02000839.1:58963-59474   | Chromosome 11:58963-59474     | CHLRE_11g467528v5 (calcium channel)                  | CC-2936 and CC-3065 look identical in IGV...; CC-3076 identical to reference at this locus                   |
 
-#### Mating type -
+#### [Mating type -](mt_minus_only)
 
 |         Contig locus         |  Equivalent chromosome locus  |                    Coding region?                    |                                                     Notes                                                     |
 |------------------------------|-------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ All proteins on NCBI's annocation appear to be labelled as hypothetical, at leas
 
 ### 300bp window
 
-#### Mating type +
+#### [Mating type +](w300/mt_plus_only)
 
 |         Contig locus         |  Equivalent chromosome locus  |                    Coding region?                    |                                                    Notes                                                      |
 |------------------------------|-------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ All proteins on NCBI's annocation appear to be labelled as hypothetical, at leas
 | ABCN02001352.1:135282-135635 | Chromosome 17:1192828-1193181 | CHLRE_17g704850v5 (adenine phosphoribosyltransferase) | Looks okay; CC-3065 identical to reference at this locus!                                                     |
 
 
-#### Mating type -
+#### [Mating type -](w300/mt_minus_only)
 
 |         Contig locus         |  Equivalent chromosome locus  |                    Coding region?                    |                                                    Notes                                                      |
 |------------------------------|-------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
