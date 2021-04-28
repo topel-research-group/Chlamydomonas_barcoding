@@ -35,4 +35,5 @@
 03b_barcoding_contigs/w300/all_strains
 03b_barcoding_contigs/mating_type_locus_BLAST/runBLASTn.*sge.*
 03b_barcoding_contigs/mt_*_only/runBamboozleBarcoding.p21_w500.mt*.sge.*
+GTF_file/
 MeetingNotes.md
