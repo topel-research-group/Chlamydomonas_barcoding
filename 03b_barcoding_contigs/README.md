@@ -84,27 +84,26 @@ All proteins on NCBI's annotation appear to be labelled as hypothetical, at leas
 
 |         Contig locus         | Equivalent chromosome locus |                    Coding region?                    |                                                    Notes                                                      |
 |------------------------------|-----------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| ABCN02000056.1:402562-402722 |    Chr 1:5735426-5735586    |...                                                   | **Imperfect match from contig to scaffold**... |
-| ABCN02000109.1:174971-175125 |    Chr 2:2821391-2821545    |...                                                   | ... |
-| ABCN02000221.1:10831-10982   |    Chr 3:3981339-3981490    |...                                                   | ... |
-| ABCN02000235.1:222368-222522 |    Chr 3:6180604-6180758    |...                                                   | ... |
-| ABCN02000235.1:222409-222569 |    Chr 3:6180645-6180805    |...                                                   | ... |
-| ABCN02000260.1:184212-184366 |    Chr 3:7303447-7303601    |...                                                   | ... |
-| ABCN02000271.1:71816-71971   |    Chr 3:8620514-8620573    |...                                                   | ... |
-| ABCN02000494.1:186437-186611 |    Chr 6:4917859-4918033    |...                                                   | **Imperfect match from contig to scaffold**... |
-| ABCN02000929.1:355726-355876 |    Chr 12:1399178-1399328   |...                                                   | ... |
-| ABCN02001352.1:135399-135553 |    Chr 17:1192945-1193099   |...                                                   | ... |
-| ABCN02001352.1:135437-135589 |    Chr 17:1192983-1193135   |...                                                   | ... |
+| ABCN02000056.1:402562-402722 |    Chr 1:5735426-5735586    | CHLRE_01g040900v5 (unknown function)                 | **Imperfect match from contig to scaffold**... |
+| ABCN02000109.1:174971-175125 |    Chr 2:2821391-2821545    | CHLRE_02g094551v5 (ezrin/radixin/moesin family domain) | ... |
+| ABCN02000221.1:10831-10982   |    Chr 3:3981339-3981490    | CHLRE_03g171850v5 (unknown function)                 | ... |
+| ABCN02000235.1:222368-222522 |    Chr 3:6180604-6180758    | CHLRE_03g192250v5 (pherophorin domain?)              | ... |
+| ABCN02000235.1:222409-222569 |    Chr 3:6180645-6180805    | CHLRE_03g192250v5 (pherophorin domain?)              | ... |
+| ABCN02000260.1:184212-184366 |    Chr 3:7303447-7303601    | CHLRE_03g206900v5 (protein kinase and ATP binding domains?) | ... |
+| ABCN02000271.1:71816-71971   |    Chr 3:8620514-8620573    | CHLRE_03g203345v5 (hypothetical protein              | **Incomplete BLAST hit!?** |
+| ABCN02000494.1:186437-186611 |    Chr 6:4917859-4918033    | CHLRE_06g279400v5 (serine carboxypeptidase)          | **Imperfect match from contig to scaffold**... |
+| ABCN02000929.1:355726-355876 |    Chr 12:1399178-1399328   | CHLRE_12g488150v5 (hypothetical protein)             | ... |
+| ABCN02001352.1:135399-135553 |    Chr 17:1192945-1193099   | CHLRE_17g704850v5 (adenine phosphoribosyltransferase) | ... |
+| ABCN02001352.1:135437-135589 |    Chr 17:1192983-1193135   | CHLRE_17g704850v5 (adenine phosphoribosyltransferase) | ... |
 
 #### [Mating type -](w150/mt_minus_only)
 
 |         Contig locus         | Equivalent chromosome locus |                    Coding region?                    |                                                    Notes                                                      |
 |------------------------------|-----------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| ABCN02000136.1:276755-277086 |    Chr 2:1132699-1132860    |...                                                   | ... |
-| ABCN02000738.1:308841-309144 |    Chr 2:2436998-2437151    |...                                                   | ... |
-| ABCN02000738.1:308878-309178 |    Chr 2:5321618-5321772    |...                                                   | ... |
-| ABCN02000819.1:276767-277068 |    Chr 2:5974530-5974687    |...                                                   | ... |
-| ABCN02001069.1:76226-76544   |    Chr 2:6169646-6169799    |...                                                   | ... |
-| ABCN02001285.1:148549-148861 |    Chr 9:4078375-4078534    |...                                                   | ... |
-| ABCN02001352.1:142906-143216 |    Chr 12:9151713-9151870   |...                                                   | ... |
-
+| ABCN02000089.1:26715-26876   |    Chr 2:1132699-1132860    | CHLRE_02g081450v5 (ribosomal protein TL5)            | ... |
+| ABCN02000103.1:170619-170772 |    Chr 2:2436998-2437151    | CHLRE_02g091550v5 (whirly transcription factor)      | ... |
+| ABCN02000135.1:696884-697038 |    Chr 2:5321618-5321772    | CHLRE_02g106950v5 (glycosyltransferase)              | ... |
+| ABCN02000136.1:276788-276945 |    Chr 2:5974530-5974687    | CHLRE_02g112150v5 (phospholipase B?)                 | ... |
+| ABCN02000138.1:7447-7600     |    Chr 2:6169646-6169799    | CHLRE_02g113652v5 (short-chain dehydrogenases/reductases) | ... |
+| ABCN02000739.1:21333-21492   |    Chr 9:4078375-4078534    | CHLRE_09g393432v5 (5'-3' exonuclease)                | ... |
+| ABCN02001021.1:198839-198996 |    Chr 12:9151713-9151870   | CHLRE_12g542450v5 (AAA domain [helicase?])           | ... |
