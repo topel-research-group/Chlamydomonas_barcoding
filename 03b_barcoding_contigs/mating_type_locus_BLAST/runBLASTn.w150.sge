@@ -1,0 +1,13 @@
+#$ -cwd
+#$ -q Annotation-3
+#$ -pe mpi 20
+#$ -S /bin/bash
+
+module load blast/v2.10.0
+
+DB=../../01_mapping/Reference/C_reinhardtii_v5.5_reference.fasta
+INFILE=MatingTypeSpecificLoci.w150.fasta
+
+blastn -query $INFILE -db $DB -num_threads $NSLOTS \
+-outfmt '6 std qlen slen' \
+-out Chlamy_mt_barcodes_vs_scaffolds.w150.BLASTn.tab

@@ -14,8 +14,8 @@ No barcodes found when looking at *all* samples
 | mt- 500bp window | [Chlamy_p21_w500_ContigLevel_mt_minus.txt](mt_minus_only/Chlamy_p21_w500_ContigLevel_mt_minus.txt)     | [Chlamy_p21_w500_ContigLevel_mt_minus_alleles](mt_minus_only/Chlamy_p21_w500_ContigLevel_mt_minus_alleles/) |
 | mt+ 300bp window | [Chlamy_p21_w300_ContigLevel_mt_plus.txt](w300/mt_plus_only/Chlamy_p21_w300_ContigLevel_mt_plus.txt)   | [Chlamy_p21_w300_ContigLevel_mt_plus_alleles](w300/mt_plus_only/Chlamy_p21_w300_ContigLevel_mt_plus_alleles/)|
 | mt- 300bp window | [Chlamy_p21_w300_ContigLevel_mt_minus.txt](w300/mt_minus_only/Chlamy_p21_w300_ContigLevel_mt_minus.txt)| [Chlamy_p21_w300_ContigLevel_mt_minus_alleles](w300/mt_minus_only/Chlamy_p21_w300_ContigLevel_mt_minus_alleles/)|
-| mt+ 150bp window (WIP) | [Chlamy_p21_w150_ContigLevel_mt_plus.txt](w150/mt_plus_only/Chlamy_p21_w150_ContigLevel_mt_plus.txt)   | [Chlamy_p21_w150_ContigLevel_mt_plus_alleles](w150/mt_plus_only/Chlamy_p21_w150_ContigLevel_mt_plus_alleles/)|
-| mt- 150bp window (WIP) | [Chlamy_p21_w150_ContigLevel_mt_minus.txt](w150/mt_minus_only/Chlamy_p21_w150_ContigLevel_mt_minus.txt)| [Chlamy_p21_w150_ContigLevel_mt_minus_alleles](w150/mt_minus_only/Chlamy_p21_w150_ContigLevel_mt_minus_alleles/)|
+| mt+ 150bp window | [Chlamy_p21_w150_ContigLevel_mt_plus.txt](w150/mt_plus_only/Chlamy_p21_w150_ContigLevel_mt_plus.txt)   | [Chlamy_p21_w150_ContigLevel_mt_plus_alleles](w150/mt_plus_only/Chlamy_p21_w150_ContigLevel_mt_plus_alleles/)|
+| mt- 150bp window | [Chlamy_p21_w150_ContigLevel_mt_minus.txt](w150/mt_minus_only/Chlamy_p21_w150_ContigLevel_mt_minus.txt)| [Chlamy_p21_w150_ContigLevel_mt_minus_alleles](w150/mt_minus_only/Chlamy_p21_w150_ContigLevel_mt_minus_alleles/)|
 
 
 ### 500bp window
@@ -82,8 +82,29 @@ All proteins on NCBI's annotation appear to be labelled as hypothetical, at leas
 
 #### [Mating type +](w150/mt_plus_only)
 
-WORK IN PROGRESS
+|         Contig locus         | Equivalent chromosome locus |                    Coding region?                    |                                                    Notes                                                      |
+|------------------------------|-----------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| ABCN02000056.1:402562-402722 |    Chr 1:5735426-5735586    |...                                                   | **Imperfect match from contig to scaffold**... |
+| ABCN02000109.1:174971-175125 |    Chr 2:2821391-2821545    |...                                                   | ... |
+| ABCN02000221.1:10831-10982   |    Chr 3:3981339-3981490    |...                                                   | ... |
+| ABCN02000235.1:222368-222522 |    Chr 3:6180604-6180758    |...                                                   | ... |
+| ABCN02000235.1:222409-222569 |    Chr 3:6180645-6180805    |...                                                   | ... |
+| ABCN02000260.1:184212-184366 |    Chr 3:7303447-7303601    |...                                                   | ... |
+| ABCN02000271.1:71816-71971   |    Chr 3:8620514-8620573    |...                                                   | ... |
+| ABCN02000494.1:186437-186611 |    Chr 6:4917859-4918033    |...                                                   | **Imperfect match from contig to scaffold**... |
+| ABCN02000929.1:355726-355876 |    Chr 12:1399178-1399328   |...                                                   | ... |
+| ABCN02001352.1:135399-135553 |    Chr 17:1192945-1193099   |...                                                   | ... |
+| ABCN02001352.1:135437-135589 |    Chr 17:1192983-1193135   |...                                                   | ... |
 
 #### [Mating type -](w150/mt_minus_only)
 
-WORK IN PROGRESS
+|         Contig locus         | Equivalent chromosome locus |                    Coding region?                    |                                                    Notes                                                      |
+|------------------------------|-----------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| ABCN02000136.1:276755-277086 |    Chr 2:1132699-1132860    |...                                                   | ... |
+| ABCN02000738.1:308841-309144 |    Chr 2:2436998-2437151    |...                                                   | ... |
+| ABCN02000738.1:308878-309178 |    Chr 2:5321618-5321772    |...                                                   | ... |
+| ABCN02000819.1:276767-277068 |    Chr 2:5974530-5974687    |...                                                   | ... |
+| ABCN02001069.1:76226-76544   |    Chr 2:6169646-6169799    |...                                                   | ... |
+| ABCN02001285.1:148549-148861 |    Chr 9:4078375-4078534    |...                                                   | ... |
+| ABCN02001352.1:142906-143216 |    Chr 12:9151713-9151870   |...                                                   | ... |
+
