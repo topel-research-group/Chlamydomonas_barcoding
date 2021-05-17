@@ -90,7 +90,7 @@ All proteins on NCBI's annotation appear to be labelled as hypothetical, at leas
 | ABCN02000235.1:222368-222522 |    Chr 3:6180604-6180758    | CHLRE_03g192250v5 (pherophorin domain?)              | ... |
 | ABCN02000235.1:222409-222569 |    Chr 3:6180645-6180805    | CHLRE_03g192250v5 (pherophorin domain?)              | ... |
 | ABCN02000260.1:184212-184366 |    Chr 3:7303447-7303601    | CHLRE_03g206900v5 (protein kinase and ATP binding domains?) | ... |
-| ABCN02000271.1:71816-71971   |    Chr 3:8620514-8620573    | CHLRE_03g203345v5 (hypothetical protein              | **Incomplete BLAST hit!?** |
+| ABCN02000271.1:71816-71971   |    Chr 3:8620514-8620669    | CHLRE_03g203345v5 (hypothetical protein)             | **Incomplete BLAST hit...** |
 | ABCN02000494.1:186437-186611 |    Chr 6:4917859-4918033    | CHLRE_06g279400v5 (serine carboxypeptidase)          | **Imperfect match from contig to scaffold**... |
 | ABCN02000929.1:355726-355876 |    Chr 12:1399178-1399328   | CHLRE_12g488150v5 (hypothetical protein)             | ... |
 | ABCN02001352.1:135399-135553 |    Chr 17:1192945-1193099   | CHLRE_17g704850v5 (adenine phosphoribosyltransferase) | ... |
