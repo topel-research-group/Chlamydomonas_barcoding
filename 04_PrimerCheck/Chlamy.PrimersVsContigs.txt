@@ -1,0 +1,2092 @@
+BLASTN 2.10.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: C_reinhardtii_v5.5_reference.contigs.fasta
+           1,515 sequences; 107,613,365 total letters
+
+
+
+Query= minus1
+
+Length=35
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+ABCN02000738.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  34.2       0.10 
+ABCN02001363.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  32.2       0.41 
+ABCN02001113.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000506.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000018.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02001331.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000819.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02001227.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001008.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000942.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000825.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000808.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000798.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000309.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000199.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000138.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001450.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ s...  28.2       6.4  
+ABCN02001012.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000977.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000951.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000741.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000586.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000494.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000472.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000449.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000233.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000168.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+
+
+>ABCN02000738.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_9_contig_35, whole genome shotgun sequence
+Length=936105
+
+ Score = 34.2 bits (17),  Expect = 0.10
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1       GTCACACTGCCCTGGTC  17
+               |||||||||||||||||
+Sbjct  308847  GTCACACTGCCCTGGTC  308863
+
+
+ Score = 34.2 bits (17),  Expect = 0.10
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  19      TATCGCACAGGTGGGTG  35
+               |||||||||||||||||
+Sbjct  309120  TATCGCACAGGTGGGTG  309136
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4      ACACTGCCCTGGTC  17
+              ||||||||||||||
+Sbjct  21333  ACACTGCCCTGGTC  21346
+
+
+>ABCN02001363.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_17_contig_23, whole genome shotgun sequence
+Length=223821
+
+ Score = 32.2 bits (16),  Expect = 0.41
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  20      ATCGCACAGGTGGGTG  35
+               ||||||||||||||||
+Sbjct  136219  ATCGCACAGGTGGGTG  136234
+
+
+>ABCN02001113.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_14_contig_28, whole genome shotgun sequence
+Length=335150
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  3      CACACTGCCCTGGTC  17
+              |||||||||||||||
+Sbjct  29450  CACACTGCCCTGGTC  29464
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  1       GTCACACTGCCCTG  14
+               ||||||||||||||
+Sbjct  271027  GTCACACTGCCCTG  271040
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  1       GTCACACTGCCCTG  14
+               ||||||||||||||
+Sbjct  251999  GTCACACTGCCCTG  251986
+
+
+>ABCN02000506.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_61, whole genome shotgun sequence
+Length=443087
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  20     ATCGCACAGGTGGGT  34
+              |||||||||||||||
+Sbjct  67547  ATCGCACAGGTGGGT  67561
+
+
+>ABCN02000018.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_1_contig_18, whole genome shotgun sequence
+Length=405828
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  21     TCGCACAGGTGGGTG  35
+              |||||||||||||||
+Sbjct  71193  TCGCACAGGTGGGTG  71207
+
+
+>ABCN02001331.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_16_contig_80, whole genome shotgun sequence
+Length=452658
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  21      TCGCACAGGTGGGTG  35
+               |||||||||||||||
+Sbjct  400446  TCGCACAGGTGGGTG  400432
+
+
+>ABCN02000819.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_10_contig_25, whole genome shotgun sequence
+Length=699889
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  21      TCGCACAGGTGGGTG  35
+               |||||||||||||||
+Sbjct  445235  TCGCACAGGTGGGTG  445221
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  3       CACACTGCCCTGGT  16
+               ||||||||||||||
+Sbjct  266319  CACACTGCCCTGGT  266332
+
+
+>ABCN02001227.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_15_contig_52, whole genome shotgun sequence
+Length=130478
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22     CGCACAGGTGGGTG  35
+              ||||||||||||||
+Sbjct  77899  CGCACAGGTGGGTG  77912
+
+
+>ABCN02001008.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_93, whole genome shotgun sequence
+Length=278758
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22      CGCACAGGTGGGTG  35
+               ||||||||||||||
+Sbjct  139592  CGCACAGGTGGGTG  139605
+
+
+>ABCN02000942.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_27, whole genome shotgun sequence
+Length=349778
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22      CGCACAGGTGGGTG  35
+               ||||||||||||||
+Sbjct  232261  CGCACAGGTGGGTG  232274
+
+
+>ABCN02000825.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_10_contig_31, whole genome shotgun sequence
+Length=316328
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  1       GTCACACTGCCCTG  14
+               ||||||||||||||
+Sbjct  117881  GTCACACTGCCCTG  117894
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  1       GTCACACTGCCCTG  14
+               ||||||||||||||
+Sbjct  141703  GTCACACTGCCCTG  141716
+
+
+>ABCN02000808.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_10_contig_14, whole genome shotgun sequence
+Length=307797
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  19     TATCGCACAGGTGG  32
+              ||||||||||||||
+Sbjct  84084  TATCGCACAGGTGG  84097
+
+
+>ABCN02000798.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_10_contig_4, whole genome shotgun sequence
+Length=354166
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22     CGCACAGGTGGGTG  35
+              ||||||||||||||
+Sbjct  62325  CGCACAGGTGGGTG  62338
+
+
+>ABCN02000309.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_4_contig_26, whole genome shotgun sequence
+Length=138537
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20      ATCGCACAGGTGGG  33
+               ||||||||||||||
+Sbjct  101863  ATCGCACAGGTGGG  101876
+
+
+>ABCN02000199.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_21, whole genome shotgun sequence
+Length=85197
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22    CGCACAGGTGGGTG  35
+             ||||||||||||||
+Sbjct  2811  CGCACAGGTGGGTG  2824
+
+
+>ABCN02000138.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_2_contig_56, whole genome shotgun sequence
+Length=707277
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     ATCGCACAGGTGGG  33
+              ||||||||||||||
+Sbjct  64767  ATCGCACAGGTGGG  64780
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22      CGCACAGGTGGGTG  35
+               ||||||||||||||
+Sbjct  682329  CGCACAGGTGGGTG  682342
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  2       TCACACTGCCCTGG  15
+               ||||||||||||||
+Sbjct  273700  TCACACTGCCCTGG  273687
+
+
+>ABCN02001450.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+scaffold_24_contig_1, whole genome shotgun sequence
+Length=127161
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22     CGCACAGGTGGGTG  35
+              ||||||||||||||
+Sbjct  28769  CGCACAGGTGGGTG  28756
+
+
+>ABCN02001012.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_97, whole genome shotgun sequence
+Length=113512
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22     CGCACAGGTGGGTG  35
+              ||||||||||||||
+Sbjct  13112  CGCACAGGTGGGTG  13099
+
+
+>ABCN02000977.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_62, whole genome shotgun sequence
+Length=144792
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22      CGCACAGGTGGGTG  35
+               ||||||||||||||
+Sbjct  104747  CGCACAGGTGGGTG  104734
+
+
+>ABCN02000951.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_36, whole genome shotgun sequence
+Length=102001
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22    CGCACAGGTGGGTG  35
+             ||||||||||||||
+Sbjct  2993  CGCACAGGTGGGTG  2980
+
+
+>ABCN02000741.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_9_contig_38, whole genome shotgun sequence
+Length=310863
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22      CGCACAGGTGGGTG  35
+               ||||||||||||||
+Sbjct  118078  CGCACAGGTGGGTG  118065
+
+
+>ABCN02000586.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_8_contig_9, whole genome shotgun sequence
+Length=178318
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  21     TCGCACAGGTGGGT  34
+              ||||||||||||||
+Sbjct  49509  TCGCACAGGTGGGT  49496
+
+
+>ABCN02000494.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_49, whole genome shotgun sequence
+Length=1410767
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22     CGCACAGGTGGGTG  35
+              ||||||||||||||
+Sbjct  83189  CGCACAGGTGGGTG  83176
+
+
+>ABCN02000472.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_27, whole genome shotgun sequence
+Length=111201
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22      CGCACAGGTGGGTG  35
+               ||||||||||||||
+Sbjct  108983  CGCACAGGTGGGTG  108970
+
+
+>ABCN02000449.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_4, whole genome shotgun sequence
+Length=293779
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  21      TCGCACAGGTGGGT  34
+               ||||||||||||||
+Sbjct  205645  TCGCACAGGTGGGT  205632
+
+
+>ABCN02000233.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_55, whole genome shotgun sequence
+Length=160120
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22      CGCACAGGTGGGTG  35
+               ||||||||||||||
+Sbjct  116581  CGCACAGGTGGGTG  116568
+
+
+>ABCN02000168.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_2_contig_86, whole genome shotgun sequence
+Length=149693
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  4       ACACTGCCCTGGTC  17
+               ||||||||||||||
+Sbjct  139927  ACACTGCCCTGGTC  139914
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2044193375
+
+
+Query= minus2
+
+Length=35
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+ABCN02000738.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  34.2       0.10 
+ABCN02000506.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  34.2       0.10 
+ABCN02001183.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  32.2       0.41 
+ABCN02000473.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  32.2       0.41 
+ABCN02000840.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000585.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000001.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02001367.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001355.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001354.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000970.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000917.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000873.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000838.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000808.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000761.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000728.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000681.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000542.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000261.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000193.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+
+
+>ABCN02000738.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_9_contig_35, whole genome shotgun sequence
+Length=936105
+
+ Score = 34.2 bits (17),  Expect = 0.10
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1       ACCTGGTGTCCATCCTG  17
+               |||||||||||||||||
+Sbjct  308878  ACCTGGTGTCCATCCTG  308894
+
+
+ Score = 34.2 bits (17),  Expect = 0.10
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  19      CAGCTTACAAGGCGGGC  35
+               |||||||||||||||||
+Sbjct  309158  CAGCTTACAAGGCGGGC  309174
+
+
+>ABCN02000506.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_61, whole genome shotgun sequence
+Length=443087
+
+ Score = 34.2 bits (17),  Expect = 0.10
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1       ACCTGGTGTCCATCCTG  17
+               |||||||||||||||||
+Sbjct  129258  ACCTGGTGTCCATCCTG  129274
+
+
+>ABCN02001183.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_15_contig_8, whole genome shotgun sequence
+Length=27937
+
+ Score = 32.2 bits (16),  Expect = 0.41
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Minus
+
+Query  2      CCTGGTGTCCATCCTG  17
+              ||||||||||||||||
+Sbjct  12272  CCTGGTGTCCATCCTG  12257
+
+
+>ABCN02000473.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_28, whole genome shotgun sequence
+Length=839725
+
+ Score = 32.2 bits (16),  Expect = 0.41
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  4      TGGTGTCCATCCTGNCAGC  22
+              |||||||||||||| ||||
+Sbjct  40370  TGGTGTCCATCCTGGCAGC  40388
+
+
+>ABCN02000840.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_11_contig_2, whole genome shotgun sequence
+Length=39521
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  19     CAGCTTACAAGGCGG  33
+              |||||||||||||||
+Sbjct  36102  CAGCTTACAAGGCGG  36088
+
+
+>ABCN02000585.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_8_contig_8, whole genome shotgun sequence
+Length=74491
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  19     CAGCTTACAAGGCGG  33
+              |||||||||||||||
+Sbjct  48561  CAGCTTACAAGGCGG  48547
+
+
+>ABCN02000001.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_1_contig_1, whole genome shotgun sequence
+Length=255926
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  2      CCTGGTGTCCATCCT  16
+              |||||||||||||||
+Sbjct  45011  CCTGGTGTCCATCCT  45025
+
+
+>ABCN02001367.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_17_contig_27, whole genome shotgun sequence
+Length=360774
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  2       CCTGGTGTCCATCCTGNCAGC  22
+               ||||||| |||||||| ||||
+Sbjct  104502  CCTGGTGCCCATCCTGCCAGC  104522
+
+
+>ABCN02001355.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_17_contig_15, whole genome shotgun sequence
+Length=423719
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  3       CTGGTGTCCATCCT  16
+               ||||||||||||||
+Sbjct  201102  CTGGTGTCCATCCT  201115
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  3       CTGGTGTCCATCCT  16
+               ||||||||||||||
+Sbjct  210231  CTGGTGTCCATCCT  210244
+
+
+>ABCN02001354.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_17_contig_14, whole genome shotgun sequence
+Length=631466
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22      CTTACAAGGCGGGC  35
+               ||||||||||||||
+Sbjct  363876  CTTACAAGGCGGGC  363863
+
+
+>ABCN02000970.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_55, whole genome shotgun sequence
+Length=393659
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  1      ACCTGGTGTCCATC  14
+              ||||||||||||||
+Sbjct  27912  ACCTGGTGTCCATC  27899
+
+
+>ABCN02000917.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_2, whole genome shotgun sequence
+Length=103858
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  8      GTCCATCCTGNCAGCTT  24
+              |||||||||| ||||||
+Sbjct  44430  GTCCATCCTGGCAGCTT  44446
+
+
+>ABCN02000873.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_11_contig_35, whole genome shotgun sequence
+Length=211812
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20      AGCTTACAAGGCGG  33
+               ||||||||||||||
+Sbjct  145616  AGCTTACAAGGCGG  145603
+
+
+>ABCN02000838.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_10_contig_44, whole genome shotgun sequence
+Length=177573
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  2       CCTGGTGTCCATCC  15
+               ||||||||||||||
+Sbjct  164296  CCTGGTGTCCATCC  164309
+
+
+>ABCN02000808.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_10_contig_14, whole genome shotgun sequence
+Length=307797
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  2       CCTGGTGTCCATCC  15
+               ||||||||||||||
+Sbjct  279806  CCTGGTGTCCATCC  279793
+
+
+>ABCN02000761.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_9_contig_58, whole genome shotgun sequence
+Length=45050
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  1      ACCTGGTGTCCATC  14
+              ||||||||||||||
+Sbjct  27014  ACCTGGTGTCCATC  27001
+
+
+>ABCN02000728.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_9_contig_25, whole genome shotgun sequence
+Length=265634
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4       TGGTGTCCATCCTG  17
+               ||||||||||||||
+Sbjct  237534  TGGTGTCCATCCTG  237547
+
+
+>ABCN02000681.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_8_contig_104, whole genome shotgun sequence
+Length=81086
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  1      ACCTGGTGTCCATC  14
+              ||||||||||||||
+Sbjct  41103  ACCTGGTGTCCATC  41116
+
+
+>ABCN02000542.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_7_contig_26, whole genome shotgun sequence
+Length=307916
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  2       CCTGGTGTCCATCC  15
+               ||||||||||||||
+Sbjct  303041  CCTGGTGTCCATCC  303028
+
+
+>ABCN02000261.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_83, whole genome shotgun sequence
+Length=765808
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4       TGGTGTCCATCCTG  17
+               ||||||||||||||
+Sbjct  336923  TGGTGTCCATCCTG  336936
+
+
+>ABCN02000193.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_15, whole genome shotgun sequence
+Length=6502
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  19    CAGCTTACAAGGCG  32
+             ||||||||||||||
+Sbjct  4586  CAGCTTACAAGGCG  4599
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2044193375
+
+
+Query= minus3
+
+Length=35
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+ABCN02001285.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  34.2       0.10 
+ABCN02001293.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  32.2       0.41 
+ABCN02000869.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  32.2       0.41 
+ABCN02001060.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02001038.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000672.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000557.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000494.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000434.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000351.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000109.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02001497.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ s...  28.2       6.4  
+ABCN02001481.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ s...  28.2       6.4  
+ABCN02001473.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ s...  28.2       6.4  
+ABCN02001410.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001367.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001354.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001348.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001326.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001324.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001277.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001212.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02001153.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000968.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000943.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000937.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000929.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000873.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000838.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000724.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000678.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000676.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000635.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000577.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000555.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000551.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000493.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000317.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000292.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000236.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000221.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000216.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000204.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000201.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000174.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000173.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000160.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000138.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000080.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000056.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000054.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000047.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000019.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+
+
+>ABCN02001285.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_16_contig_34, whole genome shotgun sequence
+Length=281215
+
+ Score = 34.2 bits (17),  Expect = 0.10
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1       ACGCCGGATGCCATACA  17
+               |||||||||||||||||
+Sbjct  148553  ACGCCGGATGCCATACA  148569
+
+
+ Score = 34.2 bits (17),  Expect = 0.10
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  19      ATGAAGCTGCTGCCGGA  35
+               |||||||||||||||||
+Sbjct  148828  ATGAAGCTGCTGCCGGA  148844
+
+
+>ABCN02001293.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_16_contig_42, whole genome shotgun sequence
+Length=124541
+
+ Score = 32.2 bits (16),  Expect = 0.41
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  20      TGAAGCTGCTGCCGGA  35
+               ||||||||||||||||
+Sbjct  120831  TGAAGCTGCTGCCGGA  120846
+
+
+>ABCN02000869.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_11_contig_31, whole genome shotgun sequence
+Length=65331
+
+ Score = 32.2 bits (16),  Expect = 0.41
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCGGA  35
+              ||||||||||||||||
+Sbjct  31451  TGAAGCTGCTGCCGGA  31466
+
+
+>ABCN02001060.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_13_contig_31, whole genome shotgun sequence
+Length=214574
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  19      ATGAAGCTGCTGCCG  33
+               |||||||||||||||
+Sbjct  153853  ATGAAGCTGCTGCCG  153867
+
+
+>ABCN02001038.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_13_contig_9, whole genome shotgun sequence
+Length=82884
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  19     ATGAAGCTGCTGCCG  33
+              |||||||||||||||
+Sbjct  61935  ATGAAGCTGCTGCCG  61949
+
+
+>ABCN02000672.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_8_contig_95, whole genome shotgun sequence
+Length=140113
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  20    TGAAGCTGCTGCCGG  34
+             |||||||||||||||
+Sbjct  7267  TGAAGCTGCTGCCGG  7253
+
+
+>ABCN02000557.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_7_contig_41, whole genome shotgun sequence
+Length=225689
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  20     TGAAGCTGCTGCCGG  34
+              |||||||||||||||
+Sbjct  52897  TGAAGCTGCTGCCGG  52883
+
+
+>ABCN02000494.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_49, whole genome shotgun sequence
+Length=1410767
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  19     ATGAAGCTGCTGCCG  33
+              |||||||||||||||
+Sbjct  12160  ATGAAGCTGCTGCCG  12146
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  30292  TGAAGCTGCTGCCG  30305
+
+
+>ABCN02000434.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_5_contig_81, whole genome shotgun sequence
+Length=100719
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  21     GAAGCTGCTGCCGGA  35
+              |||||||||||||||
+Sbjct  21814  GAAGCTGCTGCCGGA  21828
+
+
+>ABCN02000351.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_4_contig_68, whole genome shotgun sequence
+Length=27230
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  19     ATGAAGCTGCTGCCG  33
+              |||||||||||||||
+Sbjct  18849  ATGAAGCTGCTGCCG  18863
+
+
+>ABCN02000109.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_2_contig_27, whole genome shotgun sequence
+Length=244956
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  20      TGAAGCTGCTGCCGG  34
+               |||||||||||||||
+Sbjct  243855  TGAAGCTGCTGCCGG  243841
+
+
+>ABCN02001497.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+scaffold_44_contig_1, whole genome shotgun sequence
+Length=17736
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  10037  TGAAGCTGCTGCCG  10050
+
+
+>ABCN02001481.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+scaffold_34_contig_1, whole genome shotgun sequence
+Length=33576
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20   TGAAGCTGCTGCCG  33
+            ||||||||||||||
+Sbjct  489  TGAAGCTGCTGCCG  502
+
+
+>ABCN02001473.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+scaffold_30_contig_1, whole genome shotgun sequence
+Length=52376
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  30065  TGAAGCTGCTGCCG  30078
+
+
+>ABCN02001410.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_17_contig_70, whole genome shotgun sequence
+Length=12299
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20    TGAAGCTGCTGCCG  33
+             ||||||||||||||
+Sbjct  5337  TGAAGCTGCTGCCG  5350
+
+
+>ABCN02001367.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_17_contig_27, whole genome shotgun sequence
+Length=360774
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  21      GAAGCTGCTGCCGG  34
+               ||||||||||||||
+Sbjct  355993  GAAGCTGCTGCCGG  355980
+
+
+>ABCN02001354.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_17_contig_14, whole genome shotgun sequence
+Length=631466
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  19      ATGAAGCTGCTGCC  32
+               ||||||||||||||
+Sbjct  510518  ATGAAGCTGCTGCC  510505
+
+
+>ABCN02001348.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_17_contig_8, whole genome shotgun sequence
+Length=185829
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  99336  TGAAGCTGCTGCCG  99323
+
+
+>ABCN02001326.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_16_contig_75, whole genome shotgun sequence
+Length=65544
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  1      ACGCCGGATGCCAT  14
+              ||||||||||||||
+Sbjct  46240  ACGCCGGATGCCAT  46253
+
+
+>ABCN02001324.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_16_contig_73, whole genome shotgun sequence
+Length=82935
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  31760  TGAAGCTGCTGCCG  31773
+
+
+>ABCN02001277.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_16_contig_26, whole genome shotgun sequence
+Length=73070
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  21459  TGAAGCTGCTGCCG  21472
+
+
+>ABCN02001212.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_15_contig_37, whole genome shotgun sequence
+Length=68347
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  15     ACANATGAAGCTGCTGC  31
+              ||| |||||||||||||
+Sbjct  51970  ACATATGAAGCTGCTGC  51986
+
+
+>ABCN02001153.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_14_contig_68, whole genome shotgun sequence
+Length=27890
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  17956  TGAAGCTGCTGCCG  17969
+
+
+>ABCN02000968.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_53, whole genome shotgun sequence
+Length=287840
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22     AAGCTGCTGCCGGA  35
+              ||||||||||||||
+Sbjct  26741  AAGCTGCTGCCGGA  26754
+
+
+>ABCN02000943.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_28, whole genome shotgun sequence
+Length=380771
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  3     GCCGGATGCCATAC  16
+             ||||||||||||||
+Sbjct  5277  GCCGGATGCCATAC  5264
+
+
+>ABCN02000937.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_22, whole genome shotgun sequence
+Length=1228261
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22      AAGCTGCTGCCGGA  35
+               ||||||||||||||
+Sbjct  746272  AAGCTGCTGCCGGA  746259
+
+
+>ABCN02000929.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_14, whole genome shotgun sequence
+Length=550505
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  1       ACGCCGGATGCCAT  14
+               ||||||||||||||
+Sbjct  433035  ACGCCGGATGCCAT  433048
+
+
+>ABCN02000873.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_11_contig_35, whole genome shotgun sequence
+Length=211812
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  1      ACGCCGGATGCCAT  14
+              ||||||||||||||
+Sbjct  11165  ACGCCGGATGCCAT  11152
+
+
+>ABCN02000838.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_10_contig_44, whole genome shotgun sequence
+Length=177573
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  21     GAAGCTGCTGCCGG  34
+              ||||||||||||||
+Sbjct  81956  GAAGCTGCTGCCGG  81943
+
+
+>ABCN02000724.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_9_contig_21, whole genome shotgun sequence
+Length=197947
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  19      ATGAAGCTGCTGCC  32
+               ||||||||||||||
+Sbjct  104604  ATGAAGCTGCTGCC  104617
+
+
+>ABCN02000678.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_8_contig_101, whole genome shotgun sequence
+Length=9234
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  21    GAAGCTGCTGCCGG  34
+             ||||||||||||||
+Sbjct  5893  GAAGCTGCTGCCGG  5880
+
+
+>ABCN02000676.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_8_contig_99, whole genome shotgun sequence
+Length=16280
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22  AAGCTGCTGCCGGA  35
+           ||||||||||||||
+Sbjct  65  AAGCTGCTGCCGGA  52
+
+
+>ABCN02000635.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_8_contig_58, whole genome shotgun sequence
+Length=63571
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  52052  TGAAGCTGCTGCCG  52065
+
+
+>ABCN02000577.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_7_contig_61, whole genome shotgun sequence
+Length=504140
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  21      GAAGCTGCTGCCGG  34
+               ||||||||||||||
+Sbjct  443203  GAAGCTGCTGCCGG  443216
+
+
+>ABCN02000555.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_7_contig_39, whole genome shotgun sequence
+Length=16588
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  10341  TGAAGCTGCTGCCG  10354
+
+
+>ABCN02000551.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_7_contig_35, whole genome shotgun sequence
+Length=51166
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  46260  TGAAGCTGCTGCCG  46273
+
+
+>ABCN02000493.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_48, whole genome shotgun sequence
+Length=48887
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  27910  TGAAGCTGCTGCCG  27923
+
+
+>ABCN02000317.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_4_contig_34, whole genome shotgun sequence
+Length=114228
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20      TGAAGCTGCTGCCG  33
+               ||||||||||||||
+Sbjct  108479  TGAAGCTGCTGCCG  108466
+
+
+>ABCN02000292.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_4_contig_9, whole genome shotgun sequence
+Length=30383
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22     AAGCTGCTGCCGGA  35
+              ||||||||||||||
+Sbjct  20086  AAGCTGCTGCCGGA  20073
+
+
+>ABCN02000236.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_58, whole genome shotgun sequence
+Length=347106
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20      TGAAGCTGCTGCCG  33
+               ||||||||||||||
+Sbjct  116292  TGAAGCTGCTGCCG  116305
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20      TGAAGCTGCTGCCG  33
+               ||||||||||||||
+Sbjct  339685  TGAAGCTGCTGCCG  339698
+
+
+>ABCN02000221.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_43, whole genome shotgun sequence
+Length=591810
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20      TGAAGCTGCTGCCG  33
+               ||||||||||||||
+Sbjct  283091  TGAAGCTGCTGCCG  283078
+
+
+>ABCN02000216.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_38, whole genome shotgun sequence
+Length=87727
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  69521  TGAAGCTGCTGCCG  69508
+
+
+>ABCN02000204.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_26, whole genome shotgun sequence
+Length=306404
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  21      GAAGCTGCTGCCGG  34
+               ||||||||||||||
+Sbjct  234565  GAAGCTGCTGCCGG  234578
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20      TGAAGCTGCTGCCG  33
+               ||||||||||||||
+Sbjct  294487  TGAAGCTGCTGCCG  294474
+
+
+>ABCN02000201.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_23, whole genome shotgun sequence
+Length=314868
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20      TGAAGCTGCTGCCG  33
+               ||||||||||||||
+Sbjct  106276  TGAAGCTGCTGCCG  106263
+
+
+>ABCN02000174.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_2_contig_92, whole genome shotgun sequence
+Length=15964
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20    TGAAGCTGCTGCCG  33
+             ||||||||||||||
+Sbjct  2306  TGAAGCTGCTGCCG  2319
+
+
+>ABCN02000173.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_2_contig_91, whole genome shotgun sequence
+Length=51210
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  23054  TGAAGCTGCTGCCG  23041
+
+
+>ABCN02000160.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_2_contig_78, whole genome shotgun sequence
+Length=17606
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20    TGAAGCTGCTGCCG  33
+             ||||||||||||||
+Sbjct  8952  TGAAGCTGCTGCCG  8965
+
+
+>ABCN02000138.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_2_contig_56, whole genome shotgun sequence
+Length=707277
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20      TGAAGCTGCTGCCG  33
+               ||||||||||||||
+Sbjct  579105  TGAAGCTGCTGCCG  579092
+
+
+>ABCN02000080.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_1_contig_80, whole genome shotgun sequence
+Length=27363
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  21   GAAGCTGCTGCCGG  34
+            ||||||||||||||
+Sbjct  161  GAAGCTGCTGCCGG  174
+
+
+>ABCN02000056.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_1_contig_56, whole genome shotgun sequence
+Length=527420
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22      AAGCTGCTGCCGGA  35
+               ||||||||||||||
+Sbjct  444779  AAGCTGCTGCCGGA  444792
+
+
+>ABCN02000054.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_1_contig_54, whole genome shotgun sequence
+Length=161025
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  21      GAAGCTGCTGCCGG  34
+               ||||||||||||||
+Sbjct  150759  GAAGCTGCTGCCGG  150772
+
+
+>ABCN02000047.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_1_contig_47, whole genome shotgun sequence
+Length=254934
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20      TGAAGCTGCTGCCG  33
+               ||||||||||||||
+Sbjct  213338  TGAAGCTGCTGCCG  213351
+
+
+>ABCN02000019.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_1_contig_19, whole genome shotgun sequence
+Length=66268
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  14565  TGAAGCTGCTGCCG  14578
+
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGAAGCTGCTGCCG  33
+              ||||||||||||||
+Sbjct  28676  TGAAGCTGCTGCCG  28689
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2044193375
+
+
+Query= plus2
+
+Length=36
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+ABCN02000056.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  36.2       0.028
+ABCN02000449.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.7  
+ABCN02001047.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.7  
+ABCN02001392.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.8  
+ABCN02000335.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.8  
+ABCN02001301.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.8  
+ABCN02001043.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.8  
+ABCN02000909.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.8  
+ABCN02000577.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.8  
+
+
+>ABCN02000056.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_1_contig_56, whole genome shotgun sequence
+Length=527420
+
+ Score = 36.2 bits (18),  Expect = 0.028
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  19      CTGACTGCTGGACCAACC  36
+               ||||||||||||||||||
+Sbjct  402705  CTGACTGCTGGACCAACC  402722
+
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1       TCGCTGCCACACTTCAC  17
+               |||||||||||||||||
+Sbjct  402425  TCGCTGCCACACTTCAC  402441
+
+
+>ABCN02000449.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_4, whole genome shotgun sequence
+Length=293779
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 20/22 (91%), Gaps = 0/22 (0%)
+ Strand=Plus/Minus
+
+Query  15      CACNCTGACTGCTGGACCAACC  36
+               ||| |||| |||||||||||||
+Sbjct  183105  CACGCTGATTGCTGGACCAACC  183084
+
+
+>ABCN02001047.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_13_contig_18, whole genome shotgun sequence
+Length=603095
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9       ACACTTCACNCTGACTGC  26
+               ||||||||| ||||||||
+Sbjct  509151  ACACTTCACGCTGACTGC  509168
+
+
+>ABCN02001392.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_17_contig_52, whole genome shotgun sequence
+Length=101493
+
+ Score = 28.2 bits (14),  Expect = 6.8
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Minus
+
+Query  12     CTTCACNCTGACTGCTG  28
+              |||||| ||||||||||
+Sbjct  15522  CTTCACGCTGACTGCTG  15506
+
+
+>ABCN02000335.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_4_contig_52, whole genome shotgun sequence
+Length=54198
+
+ Score = 28.2 bits (14),  Expect = 6.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  3     GCTGCCACACTTCA  16
+             ||||||||||||||
+Sbjct  9467  GCTGCCACACTTCA  9454
+
+
+>ABCN02001301.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_16_contig_50, whole genome shotgun sequence
+Length=94759
+
+ Score = 28.2 bits (14),  Expect = 6.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  19     CTGACTGCTGGACC  32
+              ||||||||||||||
+Sbjct  48258  CTGACTGCTGGACC  48271
+
+
+>ABCN02001043.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_13_contig_14, whole genome shotgun sequence
+Length=208111
+
+ Score = 28.2 bits (14),  Expect = 6.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  23     CTGCTGGACCAACC  36
+              ||||||||||||||
+Sbjct  43418  CTGCTGGACCAACC  43431
+
+
+>ABCN02000909.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_11_contig_71, whole genome shotgun sequence
+Length=77576
+
+ Score = 28.2 bits (14),  Expect = 6.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20     TGACTGCTGGACCA  33
+              ||||||||||||||
+Sbjct  52492  TGACTGCTGGACCA  52505
+
+
+>ABCN02000577.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_7_contig_61, whole genome shotgun sequence
+Length=504140
+
+ Score = 28.2 bits (14),  Expect = 6.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  23     CTGCTGGACCAACC  36
+              ||||||||||||||
+Sbjct  89341  CTGCTGGACCAACC  89354
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2151782500
+
+
+Query= plus4
+
+Length=35
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+ABCN02000227.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  34.2       0.10 
+ABCN02000494.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       1.6  
+ABCN02000685.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000261.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+ABCN02000199.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       6.4  
+
+
+>ABCN02000227.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_49, whole genome shotgun sequence
+Length=368106
+
+ Score = 34.2 bits (17),  Expect = 0.10
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1       CTCCACATGGCCCTTAG  17
+               |||||||||||||||||
+Sbjct  112635  CTCCACATGGCCCTTAG  112651
+
+
+ Score = 34.2 bits (17),  Expect = 0.10
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  19      ACATTCCGGTTCACCAG  35
+               |||||||||||||||||
+Sbjct  112915  ACATTCCGGTTCACCAG  112931
+
+
+>ABCN02000494.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_49, whole genome shotgun sequence
+Length=1410767
+
+ Score = 30.2 bits (15),  Expect = 1.6
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  3       CCACATGGCCCTTAG  17
+               |||||||||||||||
+Sbjct  138468  CCACATGGCCCTTAG  138454
+
+
+>ABCN02000685.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_8_contig_108, whole genome shotgun sequence
+Length=54582
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22     TTCCGGTTCACCAG  35
+              ||||||||||||||
+Sbjct  27765  TTCCGGTTCACCAG  27778
+
+
+>ABCN02000261.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_83, whole genome shotgun sequence
+Length=765808
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  1       CTCCACATGGCCCT  14
+               ||||||||||||||
+Sbjct  546033  CTCCACATGGCCCT  546020
+
+
+>ABCN02000199.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_21, whole genome shotgun sequence
+Length=85197
+
+ Score = 28.2 bits (14),  Expect = 6.4
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  4      CACATGGCCCTTAG  17
+              ||||||||||||||
+Sbjct  37922  CACATGGCCCTTAG  37909
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2044193375
+
+
+Query= plus7
+
+Length=42
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+ABCN02000260.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  48.1       9e-06
+ABCN02001425.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ s...  30.2       2.2  
+ABCN02000514.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       2.2  
+ABCN02000428.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  30.2       2.2  
+ABCN02001331.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       8.8  
+ABCN02001114.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       8.8  
+ABCN02001089.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       8.8  
+ABCN02001083.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       8.8  
+ABCN02001042.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       8.8  
+ABCN02000942.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       8.8  
+ABCN02000779.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       8.8  
+ABCN02000329.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       8.8  
+ABCN02000280.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ c...  28.2       8.8  
+
+
+>ABCN02000260.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_82, whole genome shotgun sequence
+Length=353820
+
+ Score = 48.1 bits (24),  Expect = 9e-06
+ Identities = 24/24 (100%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  19      GAAACGCATATAAACCTCCGATCG  42
+               ||||||||||||||||||||||||
+Sbjct  154600  GAAACGCATATAAACCTCCGATCG  154623
+
+
+ Score = 34.2 bits (17),  Expect = 0.14
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1       CAACGCGGCTGTTGGTC  17
+               |||||||||||||||||
+Sbjct  154325  CAACGCGGCTGTTGGTC  154341
+
+
+>ABCN02001425.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+scaffold_18_contig_5, whole genome shotgun sequence
+Length=32917
+
+ Score = 30.2 bits (15),  Expect = 2.2
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  23     CGCATATAAACCTCC  37
+              |||||||||||||||
+Sbjct  21744  CGCATATAAACCTCC  21730
+
+
+>ABCN02000514.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_6_contig_69, whole genome shotgun sequence
+Length=392279
+
+ Score = 30.2 bits (15),  Expect = 2.2
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  1       CAACGCGGCTGTTGG  15
+               |||||||||||||||
+Sbjct  131414  CAACGCGGCTGTTGG  131428
+
+
+>ABCN02000428.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_5_contig_75, whole genome shotgun sequence
+Length=95945
+
+ Score = 30.2 bits (15),  Expect = 2.2
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  1      CAACGCGGCTGTTGG  15
+              |||||||||||||||
+Sbjct  45635  CAACGCGGCTGTTGG  45621
+
+
+>ABCN02001331.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_16_contig_80, whole genome shotgun sequence
+Length=452658
+
+ Score = 28.2 bits (14),  Expect = 8.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4       CGCGGCTGTTGGTC  17
+               ||||||||||||||
+Sbjct  358033  CGCGGCTGTTGGTC  358046
+
+
+>ABCN02001114.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_14_contig_29, whole genome shotgun sequence
+Length=186644
+
+ Score = 28.2 bits (14),  Expect = 8.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  3       ACGCGGCTGTTGGT  16
+               ||||||||||||||
+Sbjct  102330  ACGCGGCTGTTGGT  102317
+
+
+>ABCN02001089.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_14_contig_4, whole genome shotgun sequence
+Length=39941
+
+ Score = 28.2 bits (14),  Expect = 8.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  3      ACGCGGCTGTTGGT  16
+              ||||||||||||||
+Sbjct  30122  ACGCGGCTGTTGGT  30109
+
+
+>ABCN02001083.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_13_contig_54, whole genome shotgun sequence
+Length=162310
+
+ Score = 28.2 bits (14),  Expect = 8.8
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Minus
+
+Query  10      TGTTGGTCNGAAACGCA  26
+               |||||||| ||||||||
+Sbjct  138448  TGTTGGTCCGAAACGCA  138432
+
+
+>ABCN02001042.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_13_contig_13, whole genome shotgun sequence
+Length=69717
+
+ Score = 28.2 bits (14),  Expect = 8.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4      CGCGGCTGTTGGTC  17
+              ||||||||||||||
+Sbjct  22485  CGCGGCTGTTGGTC  22498
+
+
+>ABCN02000942.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_12_contig_27, whole genome shotgun sequence
+Length=349778
+
+ Score = 28.2 bits (14),  Expect = 8.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  3       ACGCGGCTGTTGGT  16
+               ||||||||||||||
+Sbjct  108714  ACGCGGCTGTTGGT  108701
+
+
+>ABCN02000779.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_9_contig_76, whole genome shotgun sequence
+Length=22843
+
+ Score = 28.2 bits (14),  Expect = 8.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4      CGCGGCTGTTGGTC  17
+              ||||||||||||||
+Sbjct  16220  CGCGGCTGTTGGTC  16233
+
+
+>ABCN02000329.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_4_contig_46, whole genome shotgun sequence
+Length=525922
+
+ Score = 28.2 bits (14),  Expect = 8.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4       CGCGGCTGTTGGTC  17
+               ||||||||||||||
+Sbjct  457004  CGCGGCTGTTGGTC  457017
+
+
+>ABCN02000280.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ 
+chromosome_3_contig_102, whole genome shotgun sequence
+Length=145763
+
+ Score = 28.2 bits (14),  Expect = 8.8
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  4       CGCGGCTGTTGGTC  17
+               ||||||||||||||
+Sbjct  108096  CGCGGCTGTTGGTC  108083
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2797317250
+
+
+  Database: C_reinhardtii_v5.5_reference.contigs.fasta
+    Posted date:  Apr 6, 2022  11:32 AM
+  Number of letters in database: 107,613,365
+  Number of sequences in database:  1,515
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

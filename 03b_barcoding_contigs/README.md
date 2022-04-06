@@ -1,5 +1,7 @@
 # Checking barcoding at the contig level, rather than the scaffold level
 
+Note: the 500bp, mating type-specific, contig-level analysis was run using commit db64632 on the matt_improvements branch of Bamboozle
+
 ## All-samples barcodes
 
 No barcodes found when looking at *all* samples

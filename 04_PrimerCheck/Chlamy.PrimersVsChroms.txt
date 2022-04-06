@@ -1,0 +1,1459 @@
+BLASTN 2.10.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: C_reinhardtii_v5.5_reference.fasta
+           56 sequences; 111,663,579 total letters
+
+
+
+Query= minus1
+
+Length=35
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+9 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:9:1...  34.2       0.11 
+17 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:17...  32.2       0.43 
+6 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:6:1...  30.2       1.7  
+1 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:1:1...  30.2       1.7  
+16 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:16...  30.2       1.7  
+10 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:10...  30.2       1.7  
+14 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:14...  28.2       6.7  
+12 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:12...  28.2       6.7  
+4 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:4:1...  28.2       6.7  
+8 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:8:1...  28.2       6.7  
+3 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:3:1...  28.2       6.7  
+2 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:2:1...  28.2       6.7  
+
+
+>9 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:9:1:7956127:1 
+REF
+Length=7956127
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1        GTCACACTGCCCTGGTC  17
+                |||||||||||||||||
+Sbjct  3429684  GTCACACTGCCCTGGTC  3429700
+
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  19       TATCGCACAGGTGGGTG  35
+                |||||||||||||||||
+Sbjct  3429957  TATCGCACAGGTGGGTG  3429973
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4        ACACTGCCCTGGTC  17
+                ||||||||||||||
+Sbjct  3142170  ACACTGCCCTGGTC  3142183
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22       CGCACAGGTGGGTG  35
+                ||||||||||||||
+Sbjct  4541700  CGCACAGGTGGGTG  4541687
+
+
+>17 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:17:1:7188315:1 
+REF
+Length=7188315
+
+ Score = 32.2 bits (16),  Expect = 0.43
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  20       ATCGCACAGGTGGGTG  35
+                ||||||||||||||||
+Sbjct  2823204  ATCGCACAGGTGGGTG  2823219
+
+
+>6 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:6:1:9023763:1 
+REF
+Length=9023763
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  20       ATCGCACAGGTGGGT  34
+                |||||||||||||||
+Sbjct  7200745  ATCGCACAGGTGGGT  7200759
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  21      TCGCACAGGTGGGT  34
+               ||||||||||||||
+Sbjct  546248  TCGCACAGGTGGGT  546235
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22       CGCACAGGTGGGTG  35
+                ||||||||||||||
+Sbjct  1789027  CGCACAGGTGGGTG  1789014
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22       CGCACAGGTGGGTG  35
+                ||||||||||||||
+Sbjct  4814611  CGCACAGGTGGGTG  4814598
+
+
+>1 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:1:1:8033585:1 
+REF
+Length=8033585
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  21      TCGCACAGGTGGGTG  35
+               |||||||||||||||
+Sbjct  744854  TCGCACAGGTGGGTG  744868
+
+
+>16 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:16:1:7783580:1 
+REF
+Length=7783580
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  21       TCGCACAGGTGGGTG  35
+                |||||||||||||||
+Sbjct  6925867  TCGCACAGGTGGGTG  6925853
+
+
+>10 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:10:1:6576019:1 
+REF
+Length=6576019
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  21       TCGCACAGGTGGGTG  35
+                |||||||||||||||
+Sbjct  4064163  TCGCACAGGTGGGTG  4064149
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22      CGCACAGGTGGGTG  35
+               ||||||||||||||
+Sbjct  487155  CGCACAGGTGGGTG  487168
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  19       TATCGCACAGGTGG  32
+                ||||||||||||||
+Sbjct  2001793  TATCGCACAGGTGG  2001806
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  3        CACACTGCCCTGGT  16
+                ||||||||||||||
+Sbjct  3885247  CACACTGCCCTGGT  3885260
+
+
+>14 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:14:1:4157777:1 
+REF
+Length=4157777
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  1        GTCACACTGCCCTG  14
+                ||||||||||||||
+Sbjct  1269139  GTCACACTGCCCTG  1269152
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  1        GTCACACTGCCCTG  14
+                ||||||||||||||
+Sbjct  1250111  GTCACACTGCCCTG  1250098
+
+
+>12 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:12:1:9730733:1 
+REF
+Length=9730733
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22       CGCACAGGTGGGTG  35
+                ||||||||||||||
+Sbjct  3376437  CGCACAGGTGGGTG  3376450
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22       CGCACAGGTGGGTG  35
+                ||||||||||||||
+Sbjct  7557438  CGCACAGGTGGGTG  7557451
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22       CGCACAGGTGGGTG  35
+                ||||||||||||||
+Sbjct  6543834  CGCACAGGTGGGTG  6543821
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22       CGCACAGGTGGGTG  35
+                ||||||||||||||
+Sbjct  8124707  CGCACAGGTGGGTG  8124694
+
+
+>4 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:4:1:4091191:1 
+REF
+Length=4091191
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20       ATCGCACAGGTGGG  33
+                ||||||||||||||
+Sbjct  1192940  ATCGCACAGGTGGG  1192953
+
+
+>8 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:8:1:5033832:1 
+REF
+Length=5033832
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  21      TCGCACAGGTGGGT  34
+               ||||||||||||||
+Sbjct  498067  TCGCACAGGTGGGT  498054
+
+
+>3 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:3:1:9219486:1 
+REF
+Length=9219486
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22       CGCACAGGTGGGTG  35
+                ||||||||||||||
+Sbjct  5908756  CGCACAGGTGGGTG  5908743
+
+
+>2 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:2:1:9223677:1 
+REF
+Length=9223677
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  2        TCACACTGCCCTGG  15
+                ||||||||||||||
+Sbjct  6435899  TCACACTGCCCTGG  6435886
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  4        ACACTGCCCTGGTC  17
+                ||||||||||||||
+Sbjct  8759838  ACACTGCCCTGGTC  8759825
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2121590977
+
+
+Query= minus2
+
+Length=35
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+9 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:9:1...  34.2       0.11 
+6 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:6:1...  34.2       0.11 
+11 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:11...  30.2       1.7  
+8 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:8:1...  30.2       1.7  
+1 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:1:1...  30.2       1.7  
+17 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:17...  28.2       6.7  
+15 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:15...  28.2       6.7  
+12 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:12...  28.2       6.7  
+10 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:10...  28.2       6.7  
+7 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:7:1...  28.2       6.7  
+3 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:3:1...  28.2       6.7  
+
+
+>9 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:9:1:7956127:1 
+REF
+Length=7956127
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1        ACCTGGTGTCCATCCTG  17
+                |||||||||||||||||
+Sbjct  3429715  ACCTGGTGTCCATCCTG  3429731
+
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  19       CAGCTTACAAGGCGGGC  35
+                |||||||||||||||||
+Sbjct  3429995  CAGCTTACAAGGCGGGC  3430011
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4        TGGTGTCCATCCTG  17
+                ||||||||||||||
+Sbjct  2104767  TGGTGTCCATCCTG  2104780
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  1        ACCTGGTGTCCATC  14
+                ||||||||||||||
+Sbjct  6139563  ACCTGGTGTCCATC  6139550
+
+
+>6 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:6:1:9023763:1 
+REF
+Length=9023763
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1        ACCTGGTGTCCATCCTG  17
+                |||||||||||||||||
+Sbjct  7262456  ACCTGGTGTCCATCCTG  7262472
+
+
+ Score = 32.2 bits (16),  Expect = 0.43
+ Identities = 18/19 (95%), Gaps = 0/19 (0%)
+ Strand=Plus/Plus
+
+Query  4        TGGTGTCCATCCTGNCAGC  22
+                |||||||||||||| ||||
+Sbjct  1831715  TGGTGTCCATCCTGGCAGC  1831733
+
+
+>11 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:11:1:3826814:1 
+REF
+Length=3826814
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  19      CAGCTTACAAGGCGG  33
+               |||||||||||||||
+Sbjct  177921  CAGCTTACAAGGCGG  177907
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20       AGCTTACAAGGCGG  33
+                ||||||||||||||
+Sbjct  1596992  AGCTTACAAGGCGG  1596979
+
+
+>8 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:8:1:5033832:1 
+REF
+Length=5033832
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  19      CAGCTTACAAGGCGG  33
+               |||||||||||||||
+Sbjct  412628  CAGCTTACAAGGCGG  412614
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  1        ACCTGGTGTCCATC  14
+                ||||||||||||||
+Sbjct  3980242  ACCTGGTGTCCATC  3980255
+
+
+>1 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:1:1:8033585:1 
+REF
+Length=8033585
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  2      CCTGGTGTCCATCCT  16
+              |||||||||||||||
+Sbjct  45011  CCTGGTGTCCATCCT  45025
+
+
+>17 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:17:1:7188315:1 
+REF
+Length=7188315
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22       CTTACAAGGCGGGC  35
+                ||||||||||||||
+Sbjct  1833942  CTTACAAGGCGGGC  1833929
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  3        CTGGTGTCCATCCT  16
+                ||||||||||||||
+Sbjct  2302734  CTGGTGTCCATCCT  2302747
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  3        CTGGTGTCCATCCT  16
+                ||||||||||||||
+Sbjct  2311863  CTGGTGTCCATCCT  2311876
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  2        CCTGGTGTCCATCCTGNCAGC  22
+                ||||||| |||||||| ||||
+Sbjct  3696451  CCTGGTGCCCATCCTGCCAGC  3696471
+
+
+>15 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:15:1:1922860:1 
+REF
+Length=1922860
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  4      TGGTGTCCATCCTG  17
+              ||||||||||||||
+Sbjct  90491  TGGTGTCCATCCTG  90478
+
+
+>12 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:12:1:9730733:1 
+REF
+Length=9730733
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  8       GTCCATCCTGNCAGCTT  24
+               |||||||||| ||||||
+Sbjct  235140  GTCCATCCTGGCAGCTT  235156
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  1        ACCTGGTGTCCATC  14
+                ||||||||||||||
+Sbjct  5823252  ACCTGGTGTCCATC  5823239
+
+
+>10 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:10:1:6576019:1 
+REF
+Length=6576019
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  2        CCTGGTGTCCATCC  15
+                ||||||||||||||
+Sbjct  2197515  CCTGGTGTCCATCC  2197502
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  2        CCTGGTGTCCATCC  15
+                ||||||||||||||
+Sbjct  6562742  CCTGGTGTCCATCC  6562755
+
+
+>7 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:7:1:6421821:1 
+REF
+Length=6421821
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  2        CCTGGTGTCCATCC  15
+                ||||||||||||||
+Sbjct  2011228  CCTGGTGTCCATCC  2011215
+
+
+>3 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:3:1:9219486:1 
+REF
+Length=9219486
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  19      CAGCTTACAAGGCG  32
+               ||||||||||||||
+Sbjct  972292  CAGCTTACAAGGCG  972305
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4        TGGTGTCCATCCTG  17
+                ||||||||||||||
+Sbjct  7810078  TGGTGTCCATCCTG  7810091
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2121590977
+
+
+Query= minus3
+
+Length=35
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+16 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:16...  34.2       0.11 
+11 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:11...  32.2       0.43 
+13 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:13...  30.2       1.7  
+8 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:8:1...  30.2       1.7  
+7 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:7:1...  30.2       1.7  
+5 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:5:1...  30.2       1.7  
+2 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:2:1...  30.2       1.7  
+17 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:17...  28.2       6.7  
+15 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:15...  28.2       6.7  
+14 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:14...  28.2       6.7  
+12 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:12...  28.2       6.7  
+10 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:10...  28.2       6.7  
+9 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:9:1...  28.2       6.7  
+4 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:4:1...  28.2       6.7  
+3 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:3:1...  28.2       6.7  
+1 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:1:1...  28.2       6.7  
+
+
+>16 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:16:1:7783580:1 
+REF
+Length=7783580
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1        ACGCCGGATGCCATACA  17
+                |||||||||||||||||
+Sbjct  2930257  ACGCCGGATGCCATACA  2930273
+
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  19       ATGAAGCTGCTGCCGGA  35
+                |||||||||||||||||
+Sbjct  2930532  ATGAAGCTGCTGCCGGA  2930548
+
+
+ Score = 32.2 bits (16),  Expect = 0.43
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  20       TGAAGCTGCTGCCGGA  35
+                ||||||||||||||||
+Sbjct  3549863  TGAAGCTGCTGCCGGA  3549878
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20       TGAAGCTGCTGCCG  33
+                ||||||||||||||
+Sbjct  1849680  TGAAGCTGCTGCCG  1849693
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20       TGAAGCTGCTGCCG  33
+                ||||||||||||||
+Sbjct  6141717  TGAAGCTGCTGCCG  6141730
+
+
+>11 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:11:1:3826814:1 
+REF
+Length=3826814
+
+ Score = 32.2 bits (16),  Expect = 0.43
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Plus
+
+Query  20       TGAAGCTGCTGCCGGA  35
+                ||||||||||||||||
+Sbjct  1303712  TGAAGCTGCTGCCGGA  1303727
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  1        ACGCCGGATGCCAT  14
+                ||||||||||||||
+Sbjct  1462541  ACGCCGGATGCCAT  1462528
+
+
+>13 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:13:1:5206065:1 
+REF
+Length=5206065
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  19      ATGAAGCTGCTGCCG  33
+               |||||||||||||||
+Sbjct  913321  ATGAAGCTGCTGCCG  913335
+
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  19       ATGAAGCTGCTGCCG  33
+                |||||||||||||||
+Sbjct  3421619  ATGAAGCTGCTGCCG  3421633
+
+
+>8 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:8:1:5033832:1 
+REF
+Length=5033832
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  20       TGAAGCTGCTGCCGG  34
+                |||||||||||||||
+Sbjct  3489531  TGAAGCTGCTGCCGG  3489517
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22       AAGCTGCTGCCGGA  35
+                ||||||||||||||
+Sbjct  3731792  AAGCTGCTGCCGGA  3731779
+
+
+>7 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:7:1:6421821:1 
+REF
+Length=6421821
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  20       TGAAGCTGCTGCCGG  34
+                |||||||||||||||
+Sbjct  3237473  TGAAGCTGCTGCCGG  3237459
+
+
+>5 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:5:1:3500558:1 
+REF
+Length=3500558
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  21       GAAGCTGCTGCCGGA  35
+                |||||||||||||||
+Sbjct  3024377  GAAGCTGCTGCCGGA  3024391
+
+
+>2 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:2:1:9223677:1 
+REF
+Length=9223677
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  20       TGAAGCTGCTGCCGG  34
+                |||||||||||||||
+Sbjct  2890275  TGAAGCTGCTGCCGG  2890261
+
+
+>17 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:17:1:7188315:1 
+REF
+Length=7188315
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20      TGAAGCTGCTGCCG  33
+               ||||||||||||||
+Sbjct  723408  TGAAGCTGCTGCCG  723395
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  19       ATGAAGCTGCTGCC  32
+                ||||||||||||||
+Sbjct  1980584  ATGAAGCTGCTGCC  1980571
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  21       GAAGCTGCTGCCGG  34
+                ||||||||||||||
+Sbjct  3947942  GAAGCTGCTGCCGG  3947929
+
+
+>15 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:15:1:1922860:1 
+REF
+Length=1922860
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  15      ACANATGAAGCTGCTGC  31
+               ||| |||||||||||||
+Sbjct  701770  ACATATGAAGCTGCTGC  701786
+
+
+>14 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:14:1:4157777:1 
+REF
+Length=4157777
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20       TGAAGCTGCTGCCG  33
+                ||||||||||||||
+Sbjct  3487514  TGAAGCTGCTGCCG  3487527
+
+
+>12 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:12:1:9730733:1 
+REF
+Length=9730733
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  1        ACGCCGGATGCCAT  14
+                ||||||||||||||
+Sbjct  1476487  ACGCCGGATGCCAT  1476500
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22       AAGCTGCTGCCGGA  35
+                ||||||||||||||
+Sbjct  2528723  AAGCTGCTGCCGGA  2528710
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22       AAGCTGCTGCCGGA  35
+                ||||||||||||||
+Sbjct  5143313  AAGCTGCTGCCGGA  5143326
+
+
+>10 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:10:1:6576019:1 
+REF
+Length=6576019
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  21       GAAGCTGCTGCCGG  34
+                ||||||||||||||
+Sbjct  6480402  GAAGCTGCTGCCGG  6480389
+
+
+>9 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:9:1:7956127:1 
+REF
+Length=7956127
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  19       ATGAAGCTGCTGCC  32
+                ||||||||||||||
+Sbjct  1273775  ATGAAGCTGCTGCC  1273788
+
+
+>4 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:4:1:4091191:1 
+REF
+Length=4091191
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  22      AAGCTGCTGCCGGA  35
+               ||||||||||||||
+Sbjct  438803  AAGCTGCTGCCGGA  438790
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20       TGAAGCTGCTGCCG  33
+                ||||||||||||||
+Sbjct  1535189  TGAAGCTGCTGCCG  1535176
+
+
+>3 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:3:1:9219486:1 
+REF
+Length=9219486
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20       TGAAGCTGCTGCCG  33
+                ||||||||||||||
+Sbjct  1680875  TGAAGCTGCTGCCG  1680862
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  21       GAAGCTGCTGCCGG  34
+                ||||||||||||||
+Sbjct  2919144  GAAGCTGCTGCCGG  2919157
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20       TGAAGCTGCTGCCG  33
+                ||||||||||||||
+Sbjct  3820998  TGAAGCTGCTGCCG  3820985
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  20       TGAAGCTGCTGCCG  33
+                ||||||||||||||
+Sbjct  4253599  TGAAGCTGCTGCCG  4253586
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20       TGAAGCTGCTGCCG  33
+                ||||||||||||||
+Sbjct  6513721  TGAAGCTGCTGCCG  6513734
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20       TGAAGCTGCTGCCG  33
+                ||||||||||||||
+Sbjct  6737114  TGAAGCTGCTGCCG  6737127
+
+
+>1 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:1:1:8033585:1 
+REF
+Length=8033585
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20       TGAAGCTGCTGCCG  33
+                ||||||||||||||
+Sbjct  4384961  TGAAGCTGCTGCCG  4384974
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  21       GAAGCTGCTGCCGG  34
+                ||||||||||||||
+Sbjct  5217663  GAAGCTGCTGCCGG  5217676
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22       AAGCTGCTGCCGGA  35
+                ||||||||||||||
+Sbjct  5777643  AAGCTGCTGCCGGA  5777656
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  21       GAAGCTGCTGCCGG  34
+                ||||||||||||||
+Sbjct  7764392  GAAGCTGCTGCCGG  7764405
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2121590977
+
+
+Query= plus2
+
+Length=36
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+1 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:1:1...  36.2       0.029
+13 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:13...  30.2       1.8  
+17 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:17...  28.2       7.0  
+4 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:4:1...  28.2       7.0  
+16 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:16...  28.2       7.0  
+11 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:11...  28.2       7.0  
+7 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:7:1...  28.2       7.0  
+
+
+>1 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:1:1:8033585:1 
+REF
+Length=8033585
+
+ Score = 36.2 bits (18),  Expect = 0.029
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  19       CTGACTGCTGGACCAACC  36
+                ||||||||||||||||||
+Sbjct  5735569  CTGACTGCTGGACCAACC  5735586
+
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1        TCGCTGCCACACTTCAC  17
+                |||||||||||||||||
+Sbjct  5735289  TCGCTGCCACACTTCAC  5735305
+
+
+>13 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:13:1:5206065:1 
+REF
+Length=5206065
+
+ Score = 30.2 bits (15),  Expect = 1.8
+ Identities = 17/18 (94%), Gaps = 0/18 (0%)
+ Strand=Plus/Plus
+
+Query  9        ACACTTCACNCTGACTGC  26
+                ||||||||| ||||||||
+Sbjct  2607862  ACACTTCACGCTGACTGC  2607879
+
+
+ Score = 28.2 bits (14),  Expect = 7.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  23       CTGCTGGACCAACC  36
+                ||||||||||||||
+Sbjct  1299221  CTGCTGGACCAACC  1299234
+
+
+>17 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:17:1:7188315:1 
+REF
+Length=7188315
+
+ Score = 28.2 bits (14),  Expect = 7.0
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Minus
+
+Query  12       CTTCACNCTGACTGCTG  28
+                |||||| ||||||||||
+Sbjct  5698217  CTTCACGCTGACTGCTG  5698201
+
+
+>4 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:4:1:4091191:1 
+REF
+Length=4091191
+
+ Score = 28.2 bits (14),  Expect = 7.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  3        GCTGCCACACTTCA  16
+                ||||||||||||||
+Sbjct  3151294  GCTGCCACACTTCA  3151281
+
+
+>16 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:16:1:7783580:1 
+REF
+Length=7783580
+
+ Score = 28.2 bits (14),  Expect = 7.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  19       CTGACTGCTGGACC  32
+                ||||||||||||||
+Sbjct  4062554  CTGACTGCTGGACC  4062567
+
+
+>11 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:11:1:3826814:1 
+REF
+Length=3826814
+
+ Score = 28.2 bits (14),  Expect = 7.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  20       TGACTGCTGGACCA  33
+                ||||||||||||||
+Sbjct  3519021  TGACTGCTGGACCA  3519034
+
+
+>7 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:7:1:6421821:1 
+REF
+Length=6421821
+
+ Score = 28.2 bits (14),  Expect = 7.0
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  23       CTGCTGGACCAACC  36
+                ||||||||||||||
+Sbjct  6007022  CTGCTGGACCAACC  6007035
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2233253660
+
+
+Query= plus4
+
+Length=35
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+3 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:3:1...  34.2       0.11 
+6 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:6:1...  30.2       1.7  
+8 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:8:1...  28.2       6.7  
+
+
+>3 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:3:1:9219486:1 
+REF
+Length=9219486
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTCCACATGGCCCTTAG  17
+                |||||||||||||||||
+Sbjct  5075979  CTCCACATGGCCCTTAG  5075995
+
+
+ Score = 34.2 bits (17),  Expect = 0.11
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  19       ACATTCCGGTTCACCAG  35
+                |||||||||||||||||
+Sbjct  5076259  ACATTCCGGTTCACCAG  5076275
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  4        CACATGGCCCTTAG  17
+                ||||||||||||||
+Sbjct  1493921  CACATGGCCCTTAG  1493908
+
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTCCACATGGCCCT  14
+                ||||||||||||||
+Sbjct  8019188  CTCCACATGGCCCT  8019175
+
+
+>6 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:6:1:9023763:1 
+REF
+Length=9023763
+
+ Score = 30.2 bits (15),  Expect = 1.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  3        CCACATGGCCCTTAG  17
+                |||||||||||||||
+Sbjct  4869890  CCACATGGCCCTTAG  4869876
+
+
+>8 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:8:1:5033832:1 
+REF
+Length=5033832
+
+ Score = 28.2 bits (14),  Expect = 6.7
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  22       TTCCGGTTCACCAG  35
+                ||||||||||||||
+Sbjct  4360137  TTCCGGTTCACCAG  4360150
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2121590977
+
+
+Query= plus7
+
+Length=42
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+3 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:3:1...  48.1       1e-05
+KZ454945 dna_rm:supercontig supercontig:Chlamydomonas_reinhardtii...  30.2       2.3  
+6 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:6:1...  30.2       2.3  
+5 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:5:1...  30.2       2.3  
+16 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:16...  28.2       9.1  
+14 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:14...  28.2       9.1  
+13 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:13...  28.2       9.1  
+12 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:12...  28.2       9.1  
+9 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:9:1...  28.2       9.1  
+4 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:4:1...  28.2       9.1  
+
+
+>3 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:3:1:9219486:1 
+REF
+Length=9219486
+
+ Score = 48.1 bits (24),  Expect = 1e-05
+ Identities = 24/24 (100%), Gaps = 0/24 (0%)
+ Strand=Plus/Plus
+
+Query  19       GAAACGCATATAAACCTCCGATCG  42
+                ||||||||||||||||||||||||
+Sbjct  7273835  GAAACGCATATAAACCTCCGATCG  7273858
+
+
+ Score = 34.2 bits (17),  Expect = 0.15
+ Identities = 17/17 (100%), Gaps = 0/17 (0%)
+ Strand=Plus/Plus
+
+Query  1        CAACGCGGCTGTTGGTC  17
+                |||||||||||||||||
+Sbjct  7273560  CAACGCGGCTGTTGGTC  7273576
+
+
+ Score = 28.2 bits (14),  Expect = 9.1
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  4        CGCGGCTGTTGGTC  17
+                ||||||||||||||
+Sbjct  9075578  CGCGGCTGTTGGTC  9075565
+
+
+>KZ454945 dna_rm:supercontig supercontig:Chlamydomonas_reinhardtii_v5.5:KZ454945:1:271631:1 
+REF
+Length=271631
+
+ Score = 30.2 bits (15),  Expect = 2.3
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  23      CGCATATAAACCTCC  37
+               |||||||||||||||
+Sbjct  153629  CGCATATAAACCTCC  153615
+
+
+>6 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:6:1:9023763:1 
+REF
+Length=9023763
+
+ Score = 30.2 bits (15),  Expect = 2.3
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  1        CAACGCGGCTGTTGG  15
+                |||||||||||||||
+Sbjct  8755574  CAACGCGGCTGTTGG  8755588
+
+
+>5 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:5:1:3500558:1 
+REF
+Length=3500558
+
+ Score = 30.2 bits (15),  Expect = 2.3
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  1        CAACGCGGCTGTTGG  15
+                |||||||||||||||
+Sbjct  2552478  CAACGCGGCTGTTGG  2552464
+
+
+>16 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:16:1:7783580:1 
+REF
+Length=7783580
+
+ Score = 28.2 bits (14),  Expect = 9.1
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4        CGCGGCTGTTGGTC  17
+                ||||||||||||||
+Sbjct  6883454  CGCGGCTGTTGGTC  6883467
+
+
+>14 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:14:1:4157777:1 
+REF
+Length=4157777
+
+ Score = 28.2 bits (14),  Expect = 9.1
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  3       ACGCGGCTGTTGGT  16
+               ||||||||||||||
+Sbjct  112189  ACGCGGCTGTTGGT  112176
+
+
+ Score = 28.2 bits (14),  Expect = 9.1
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  3        ACGCGGCTGTTGGT  16
+                ||||||||||||||
+Sbjct  1435692  ACGCGGCTGTTGGT  1435679
+
+
+>13 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:13:1:5206065:1 
+REF
+Length=5206065
+
+ Score = 28.2 bits (14),  Expect = 9.1
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4        CGCGGCTGTTGGTC  17
+                ||||||||||||||
+Sbjct  1208471  CGCGGCTGTTGGTC  1208484
+
+
+ Score = 28.2 bits (14),  Expect = 9.1
+ Identities = 16/17 (94%), Gaps = 0/17 (0%)
+ Strand=Plus/Minus
+
+Query  10       TGTTGGTCNGAAACGCA  26
+                |||||||| ||||||||
+Sbjct  5175325  TGTTGGTCCGAAACGCA  5175309
+
+
+>12 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:12:1:9730733:1 
+REF
+Length=9730733
+
+ Score = 28.2 bits (14),  Expect = 9.1
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Minus
+
+Query  3        ACGCGGCTGTTGGT  16
+                ||||||||||||||
+Sbjct  3252890  ACGCGGCTGTTGGT  3252877
+
+
+>9 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:9:1:7956127:1 
+REF
+Length=7956127
+
+ Score = 28.2 bits (14),  Expect = 9.1
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4        CGCGGCTGTTGGTC  17
+                ||||||||||||||
+Sbjct  6553918  CGCGGCTGTTGGTC  6553931
+
+
+>4 dna_rm:chromosome chromosome:Chlamydomonas_reinhardtii_v5.5:4:1:4091191:1 
+REF
+Length=4091191
+
+ Score = 28.2 bits (14),  Expect = 9.1
+ Identities = 14/14 (100%), Gaps = 0/14 (0%)
+ Strand=Plus/Plus
+
+Query  4        CGCGGCTGTTGGTC  17
+                ||||||||||||||
+Sbjct  2431130  CGCGGCTGTTGGTC  2431143
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 2903229758
+
+
+  Database: C_reinhardtii_v5.5_reference.fasta
+    Posted date:  Apr 13, 2021  1:37 PM
+  Number of letters in database: 111,663,579
+  Number of sequences in database:  56
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2
